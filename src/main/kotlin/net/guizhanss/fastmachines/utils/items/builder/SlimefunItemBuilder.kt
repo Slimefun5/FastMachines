@@ -1,15 +1,15 @@
 package net.guizhanss.fastmachines.utils.items.builder
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType
 import net.guizhanss.fastmachines.FastMachines
-import net.guizhanss.guizhanlib.kt.common.utils.RequiredProperty
-import net.guizhanss.guizhanlib.kt.common.utils.getConstructor
-import net.guizhanss.guizhanlib.kt.slimefun.items.builder.ItemRegistry
-import net.guizhanss.guizhanlib.kt.slimefun.items.builder.MaterialType
-import net.guizhanss.guizhanlib.minecraft.utils.ChatUtil
+import net.guizhanss.fastmachines.libs.guizhanlib.common.RequiredProperty
+import net.guizhanss.fastmachines.libs.guizhanlib.reflect.getConstructor
+import net.guizhanss.fastmachines.libs.guizhanlib.slimefun.items.builder.ItemRegistry
+import net.guizhanss.fastmachines.libs.guizhanlib.slimefun.items.builder.MaterialType
+import net.guizhanss.fastmachines.libs.guizhanlib.utils.ChatUtil
 import org.bukkit.inventory.ItemStack
 import java.util.logging.Level
 import kotlin.properties.PropertyDelegateProvider
@@ -62,7 +62,7 @@ class SlimefunItemBuilder(private val registry: ItemRegistry) {
             FastMachines.log(Level.SEVERE, e, "Failed to create SlimefunItem")
             throw e
         }
-        item.register(FastMachines.instance)
+        item.register(FastMachines.addon)
         return sfis
     }
 }

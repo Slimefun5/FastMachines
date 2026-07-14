@@ -1,9 +1,11 @@
 package net.guizhanss.fastmachines.implementation.items.machines.slimefun
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial
+import net.guizhanss.fastmachines.utils.MaterialCompat
 import net.guizhanss.fastmachines.core.items.attributes.NotACauldron
 import net.guizhanss.fastmachines.core.recipes.loaders.RecipeLoader
 import net.guizhanss.fastmachines.core.recipes.loaders.SlimefunMultiblockRecipeLoader
@@ -19,7 +21,7 @@ class FastOreWasher(
 ) : BasicFastMachine(itemGroup, itemStack, recipeType, recipe), NotACauldron {
 
     override val craftItemMaterial: Material
-        get() = Material.CAULDRON
+        get() = MaterialCompat.safe(XMaterial.CAULDRON)
 
     override val recipeLoader: RecipeLoader
         get() = SlimefunMultiblockRecipeLoader(this, SlimefunItems.ORE_WASHER.itemId, true)

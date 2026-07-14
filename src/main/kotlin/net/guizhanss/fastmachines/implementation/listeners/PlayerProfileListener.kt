@@ -1,6 +1,6 @@
 package net.guizhanss.fastmachines.implementation.listeners
 
-import io.github.thebusybiscuit.slimefun4.api.player.PlayerProfile
+import io.github.thebusybiscuit.slimefun5.api.player.PlayerProfile
 import net.guizhanss.fastmachines.FastMachines
 import org.bukkit.event.EventHandler
 import org.bukkit.event.Listener

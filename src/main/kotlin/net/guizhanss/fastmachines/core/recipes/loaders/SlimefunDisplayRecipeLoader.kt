@@ -1,7 +1,7 @@
 package net.guizhanss.fastmachines.core.recipes.loaders
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem
-import io.github.thebusybiscuit.slimefun4.core.attributes.RecipeDisplayItem
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem
+import io.github.thebusybiscuit.slimefun5.core.attributes.RecipeDisplayItem
 import net.guizhanss.fastmachines.core.items.ItemWrapper
 import net.guizhanss.fastmachines.core.recipes.choices.ExactChoice
 import net.guizhanss.fastmachines.core.recipes.raw.RawRecipe

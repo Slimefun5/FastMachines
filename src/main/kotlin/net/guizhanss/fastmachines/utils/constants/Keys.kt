@@ -1,7 +1,7 @@
 package net.guizhanss.fastmachines.utils.constants
 
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey
 import net.guizhanss.fastmachines.FastMachines
-import org.bukkit.NamespacedKey
 
 object Keys {
 

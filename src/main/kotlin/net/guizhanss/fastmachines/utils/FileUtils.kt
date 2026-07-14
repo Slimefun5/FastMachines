@@ -1,6 +1,6 @@
 package net.guizhanss.fastmachines.utils
 
-import net.guizhanss.guizhanlib.common.utils.FileUtil
+import net.guizhanss.fastmachines.libs.guizhanlib.utils.FileUtil
 import java.io.File
 import java.io.IOException
 import java.util.jar.JarEntry

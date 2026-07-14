@@ -1,34 +1,34 @@
 package net.guizhanss.fastmachines.implementation.items.machines.base
 
-import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack
-import io.github.thebusybiscuit.slimefun4.api.items.settings.IntRangeSetting
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType
-import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetComponent
-import io.github.thebusybiscuit.slimefun4.core.networks.energy.EnergyNetComponentType
-import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils
-import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder
+import io.github.thebusybiscuit.slimefun5.api.SlimefunAddon
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack
+import io.github.thebusybiscuit.slimefun5.api.items.settings.IntRangeSetting
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType
+import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetComponent
+import io.github.thebusybiscuit.slimefun5.core.networks.energy.EnergyNetComponentType
+import io.github.thebusybiscuit.slimefun5.libraries.dough.blocks.BlockPosition
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils
+import io.github.thebusybiscuit.slimefun5.utils.LoreBuilder
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset
 import net.guizhanss.fastmachines.FastMachines
 import net.guizhanss.fastmachines.core.FMRegistry
 import net.guizhanss.fastmachines.core.recipes.Recipe
 import net.guizhanss.fastmachines.core.recipes.loaders.RecipeLoader
+import net.guizhanss.fastmachines.libs.guizhanlib.items.edit
+import net.guizhanss.fastmachines.libs.guizhanlib.slimefun.machines.MenuBlock
 import net.guizhanss.fastmachines.utils.constants.HeadTexture
-import net.guizhanss.guizhanlib.kt.minecraft.items.edit
-import net.guizhanss.guizhanlib.kt.slimefun.items.toItem
-import net.guizhanss.guizhanlib.slimefun.machines.MenuBlock
 import org.bukkit.Material
 import org.bukkit.block.Block
 import org.bukkit.event.block.BlockBreakEvent
 import org.bukkit.inventory.ItemStack
-import io.github.thebusybiscuit.slimefun4.utils.HeadTexture as SlimefunHeadTexture
+import io.github.thebusybiscuit.slimefun5.utils.HeadTexture as SlimefunHeadTexture
 
 /**
  * The base fast machine.
  */
+@Suppress("DEPRECATION")
 abstract class BaseFastMachine(
     itemGroup: ItemGroup,
     itemStack: SlimefunItemStack,
@@ -47,7 +47,7 @@ abstract class BaseFastMachine(
 
     // default to use a material. override to use a custom item
     open val craftItem: ItemStack
-        get() = FastMachines.localization.getItem("CRAFT", craftItemMaterial).toItem()
+        get() = FastMachines.localization.getItem("CRAFT", craftItemMaterial).item()
 
     abstract val recipeLoader: RecipeLoader
 
@@ -165,18 +165,18 @@ abstract class BaseFastMachine(
         internal val ITEMS_PER_PAGE = PREVIEW_SLOTS.size
 
         @JvmSynthetic
-        internal val NO_ITEM = FastMachines.localization.getItem("NO_ITEM", Material.BARRIER).toItem()
+        internal val NO_ITEM = FastMachines.localization.getItem("NO_ITEM", Material.BARRIER).item()
 
         @JvmSynthetic
         internal val SCROLL_UP_ITEM =
-            FastMachines.localization.getItem("SCROLL_UP", HeadTexture.ARROW_UP.texture).toItem()
+            FastMachines.localization.getItem("SCROLL_UP", HeadTexture.ARROW_UP.texture).item()
 
         @JvmSynthetic
         internal val SCROLL_DOWN_ITEM =
-            FastMachines.localization.getItem("SCROLL_DOWN", HeadTexture.ARROW_DOWN.texture).toItem()
+            FastMachines.localization.getItem("SCROLL_DOWN", HeadTexture.ARROW_DOWN.texture).item()
 
         @JvmSynthetic
-        internal val INFO_ITEM = FastMachines.localization.getItem("INFO", HeadTexture.INFO.texture).toItem()
+        internal val INFO_ITEM = FastMachines.localization.getItem("INFO", HeadTexture.INFO.texture).item()
     }
 
 }

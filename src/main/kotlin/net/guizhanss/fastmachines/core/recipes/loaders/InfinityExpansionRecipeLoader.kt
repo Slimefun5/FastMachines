@@ -1,7 +1,7 @@
 package net.guizhanss.fastmachines.core.recipes.loaders
 
 import io.github.mooy1.infinityexpansion.infinitylib.machines.MachineRecipeType
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem
 import net.guizhanss.fastmachines.FastMachines
 import net.guizhanss.fastmachines.core.recipes.choices.ExactChoice
 import net.guizhanss.fastmachines.core.recipes.raw.RawRecipe

@@ -1,0 +1,9 @@
+name: FastMachines
+author: ybw0014
+description: More Slimefun machines that bulk craft items with all shapeless recipes.
+main: net.guizhanss.fastmachines.FastMachines
+website: https://github.com/ybw0014/FastMachines
+version: ${version}
+api-version: '1.16'
+depend:
+  - Slimefun

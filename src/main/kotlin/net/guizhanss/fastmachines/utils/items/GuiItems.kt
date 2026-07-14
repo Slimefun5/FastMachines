@@ -1,6 +1,6 @@
 package net.guizhanss.fastmachines.utils.items
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat
 import net.guizhanss.fastmachines.utils.constants.Keys
 import org.bukkit.inventory.ItemStack
 import kotlin.random.Random
@@ -12,7 +12,7 @@ import kotlin.random.Random
  */
 internal fun ItemStack.asDisplayItem(): ItemStack {
     val meta = itemMeta!!
-    PersistentDataAPI.setByte(
+    PdcCompat.setByte(
         meta,
         Keys.DISPLAY_ITEM,
         Random.nextInt(Byte.MIN_VALUE.toInt(), Byte.MAX_VALUE.toInt() + 1).toByte()
@@ -35,7 +35,7 @@ internal fun ItemStack.toDisplayItem() = clone().asDisplayItem()
  */
 internal fun ItemStack.asNotDisplayItem(): ItemStack {
     val meta = itemMeta!!
-    PersistentDataAPI.remove(meta, Keys.DISPLAY_ITEM)
+    PdcCompat.remove(meta, Keys.DISPLAY_ITEM)
     itemMeta = meta
     return this
 }
@@ -48,4 +48,4 @@ internal fun ItemStack.asNotDisplayItem(): ItemStack {
 internal fun ItemStack.removeDisplayItem() = clone().asNotDisplayItem()
 
 internal fun ItemStack.isDisplayItem() =
-    hasItemMeta() && PersistentDataAPI.hasByte(itemMeta!!, Keys.DISPLAY_ITEM)
+    hasItemMeta() && PdcCompat.hasByte(itemMeta!!, Keys.DISPLAY_ITEM)

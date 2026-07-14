@@ -1,7 +1,7 @@
 package net.guizhanss.fastmachines.core.recipes.loaders
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem
-import io.github.thebusybiscuit.slimefun4.core.multiblocks.MultiBlockMachine
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem
+import io.github.thebusybiscuit.slimefun5.core.multiblocks.MultiBlockMachine
 import net.guizhanss.fastmachines.core.recipes.choices.ExactChoice
 import net.guizhanss.fastmachines.core.recipes.raw.RawRecipe
 import net.guizhanss.fastmachines.implementation.items.machines.base.BaseFastMachine

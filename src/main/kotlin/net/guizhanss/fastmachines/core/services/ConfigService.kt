@@ -1,8 +1,8 @@
 package net.guizhanss.fastmachines.core.services
 
 import net.guizhanss.fastmachines.FastMachines
-import net.guizhanss.guizhanlib.kt.slimefun.config.ConfigField
-import net.guizhanss.guizhanlib.kt.slimefun.config.addonConfig
+import net.guizhanss.fastmachines.libs.guizhanlib.config.ConfigField
+import net.guizhanss.fastmachines.libs.guizhanlib.config.addonConfig
 
 class ConfigService(plugin: FastMachines) {
 

@@ -1,9 +1,11 @@
 package net.guizhanss.fastmachines.implementation.items.machines.slimefun
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial
+import net.guizhanss.fastmachines.utils.MaterialCompat
 import net.guizhanss.fastmachines.core.recipes.loaders.RecipeLoader
 import net.guizhanss.fastmachines.core.recipes.loaders.SlimefunMultiblockRecipeLoader
 import net.guizhanss.fastmachines.implementation.items.machines.base.BasicFastMachine
@@ -18,7 +20,7 @@ class FastJuicer(
 ) : BasicFastMachine(itemGroup, itemStack, recipeType, recipe) {
 
     override val craftItemMaterial: Material
-        get() = Material.BREWING_STAND
+        get() = MaterialCompat.safe(XMaterial.BREWING_STAND)
 
     override val recipeLoader: RecipeLoader
         get() = SlimefunMultiblockRecipeLoader(this, SlimefunItems.JUICER.itemId)

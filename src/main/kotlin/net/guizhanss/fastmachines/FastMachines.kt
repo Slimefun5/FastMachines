@@ -1,7 +1,7 @@
 package net.guizhanss.fastmachines
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.BlobBuildUpdater
-import net.byteflux.libby.Library
+import io.github.thebusybiscuit.slimefun5.api.SlimefunAddon
+import io.github.thebusybiscuit.slimefun5.libraries.dough.updater.BlobBuildUpdater
 import net.guizhanss.fastmachines.core.FMRegistry
 import net.guizhanss.fastmachines.core.services.ConfigService
 import net.guizhanss.fastmachines.core.services.IntegrationService
@@ -15,42 +15,35 @@ import net.guizhanss.fastmachines.implementation.listeners.PlayerProfileListener
 import net.guizhanss.fastmachines.implementation.listeners.SlimefunRegistryListener
 import net.guizhanss.fastmachines.implementation.setup.ResearchSetup
 import net.guizhanss.fastmachines.implementation.tasks.FastMachineTickingTask
-import net.guizhanss.guizhanlib.libraries.BukkitLibraryManager
-import net.guizhanss.guizhanlib.slimefun.addon.AbstractAddon
-import net.guizhanss.guizhanlib.updater.GuizhanBuildsUpdater
+import net.guizhanss.fastmachines.libs.guizhanlib.Scheduler
 import org.bstats.bukkit.Metrics
 import org.bukkit.Bukkit
-import org.bukkit.plugin.Plugin
-import java.io.File
+import org.bukkit.plugin.java.JavaPlugin
 import java.util.logging.Level
 
-class FastMachines : AbstractAddon(
-    GITHUB_USER, GITHUB_REPO, GITHUB_BRANCH, AUTO_UPDATE_KEY
-) {
+/**
+ * Main plugin class.
+ *
+ * Unlike the upstream build this does NOT extend GuizhanLib's `AbstractAddon` (which `implements` the
+ * pre-fork `io.github.thebusybiscuit.slimefun4.api.SlimefunAddon` and ships as Java-16 bytecode). It
+ * implements the fork's own [SlimefunAddon] directly (same approach as SMG/GeneticChickengineering),
+ * and the Kotlin stdlib is now shaded into the jar rather than fetched at runtime via Paper's library
+ * loader (which is 1.16.5+ and absent on 1.8.8) - so the `load()`/Libby machinery is gone entirely.
+ *
+ * [SlimefunAddon] is implemented by a separate [addon] object rather than by this class directly:
+ * Bukkit's `PluginBase.getName()` is `final`, so a Kotlin class extending [JavaPlugin] cannot also
+ * satisfy `SlimefunAddon`'s conflicting `default getName()`/`getLogger()` (Kotlin, unlike Java, forces
+ * an explicit override of the diamond, which a final super method forbids).
+ */
+class FastMachines : JavaPlugin() {
 
-    override fun load() {
-        // check if there is central repo prop defined
-        val centralRepo = System.getProperty("centralRepository") ?: "https://repo1.maven.org/maven2/"
-
-        logger.info("Loading libraries, please wait...")
-        logger.info("If you stuck here for a long time, try to specify a mirror repository.")
-        logger.info("Add -DcentralRepository=<url> to the JVM arguments.")
-
-        // download libs
-        val manager = BukkitLibraryManager(this)
-        manager.addRepository(centralRepo)
-        manager.loadLibrary(
-            Library.builder().groupId("org.jetbrains.kotlin").artifactId("kotlin-stdlib").version("2.1.10").build()
-        )
-        manager.loadLibrary(
-            Library.builder().groupId("org.jetbrains.kotlin").artifactId("kotlin-reflect").version("2.1.10").build()
-        )
-
-        logger.info("Loaded all required libraries.")
-    }
-
-    override fun enable() {
+    override fun onEnable() {
         instance = this
+        scheduler = Scheduler(this)
+        addon = object : SlimefunAddon {
+            override fun getJavaPlugin(): JavaPlugin = this@FastMachines
+            override fun getBugTrackerURL(): String = "https://github.com/$GITHUB_USER/$GITHUB_REPO/issues"
+        }
 
         FMRegistry
 
@@ -67,7 +60,7 @@ class FastMachines : AbstractAddon(
         if (lang != DEFAULT_LANG) {
             localization.addLanguage(DEFAULT_LANG)
         }
-        log(Level.INFO, "Loaded language {0}.", lang)
+        log(Level.INFO, "Loaded language $lang.")
 
         // integrations
         integrationService = IntegrationService(this)
@@ -89,32 +82,21 @@ class FastMachines : AbstractAddon(
 
         // Metrics setup
         setupMetrics()
+
+        // auto-update
+        if (configService.autoUpdate.value) {
+            autoUpdate()
+        }
     }
 
-    override fun disable() {
+    override fun onDisable() {
         Bukkit.getScheduler().cancelTasks(this)
     }
 
-    override fun autoUpdate() {
-        if (pluginVersion.startsWith("Dev")) {
-            BlobBuildUpdater(this, file, githubRepo).start()
-        } else if (pluginVersion.startsWith("Build")) {
-            try {
-                // use updater in lib plugin
-                val clazz = Class.forName("net.guizhanss.minecraft.guizhanlib.updater.GuizhanUpdater")
-                val updaterStart = clazz.getDeclaredMethod(
-                    "start",
-                    Plugin::class.java,
-                    File::class.java,
-                    String::class.java,
-                    String::class.java,
-                    String::class.java
-                )
-                updaterStart.invoke(null, this, file, githubUser, githubRepo, githubBranch)
-            } catch (ignored: Exception) {
-                // use updater in lib
-                GuizhanBuildsUpdater.start(this, file, githubUser, githubRepo, githubBranch)
-            }
+    private fun autoUpdate() {
+        val version = description.version
+        if (version.startsWith("Dev")) {
+            BlobBuildUpdater(this, file, GITHUB_REPO).start()
         }
     }
 
@@ -138,8 +120,6 @@ class FastMachines : AbstractAddon(
 
         private const val GITHUB_USER = "ybw0014"
         private const val GITHUB_REPO = "FastMachines"
-        private const val GITHUB_BRANCH = "master"
-        private const val AUTO_UPDATE_KEY = "auto-update"
         const val DEFAULT_LANG = "en-US"
 
         lateinit var instance: FastMachines
@@ -150,15 +130,18 @@ class FastMachines : AbstractAddon(
             private set
         lateinit var integrationService: IntegrationService
             private set
+        lateinit var addon: SlimefunAddon
+            private set
+        private lateinit var scheduler: Scheduler
 
-        fun scheduler() = getScheduler()
+        fun scheduler() = scheduler
 
         fun log(level: Level, message: String) {
             instance.logger.log(level, message)
         }
 
         fun log(level: Level, ex: Throwable, message: String) {
-            instance.logger.log(level, ex) { message }
+            instance.logger.log(level, message, ex)
         }
 
         fun debug(message: String) {

@@ -1,18 +1,17 @@
 package net.guizhanss.fastmachines.implementation.items.machines.base
 
-import io.github.thebusybiscuit.slimefun4.api.player.PlayerProfile
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils
+import io.github.thebusybiscuit.slimefun5.api.player.PlayerProfile
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu
 import net.guizhanss.fastmachines.FastMachines
 import net.guizhanss.fastmachines.core.recipes.Recipe
+import net.guizhanss.fastmachines.libs.guizhanlib.items.getSlimefunItem
+import net.guizhanss.fastmachines.libs.guizhanlib.items.isSlimefunItem
+import net.guizhanss.fastmachines.libs.guizhanlib.items.position
+import net.guizhanss.fastmachines.libs.guizhanlib.utils.InventoryUtil
 import net.guizhanss.fastmachines.utils.consumeChoice
 import net.guizhanss.fastmachines.utils.countItems
 import net.guizhanss.fastmachines.utils.items.toDisplayItem
-import net.guizhanss.guizhanlib.kt.slimefun.extensions.getSlimefunItem
-import net.guizhanss.guizhanlib.kt.slimefun.extensions.isSlimefunItem
-import net.guizhanss.guizhanlib.kt.slimefun.extensions.location
-import net.guizhanss.guizhanlib.kt.slimefun.extensions.position
-import net.guizhanss.guizhanlib.minecraft.utils.InventoryUtil
 import org.bukkit.entity.Player
 
 class FastMachineCache(
@@ -158,7 +157,7 @@ class FastMachineCache(
 
             if (researches.isNotEmpty()) {
                 val pp = PlayerProfile.find(p)
-                if (pp.isEmpty) {
+                if (!pp.isPresent) {
                     FastMachines.localization.sendMessage(p, "profile-not-loaded")
                     PlayerProfile.request(p)
                     return
@@ -177,7 +176,7 @@ class FastMachineCache(
             val maxCraftByEnergy = machine.capacity / machine.energyPerUse
             actualCrafts = actualCrafts.coerceAtMost(maxCraftByEnergy)
             val energyNeeded = actualCrafts * machine.energyPerUse
-            val currentEnergy = machine.getCharge(pos.location)
+            val currentEnergy = machine.getCharge(pos.toLocation())
 
             if (currentEnergy < energyNeeded) {
                 FastMachines.localization.sendMessage(p, "not-enough-energy")
@@ -185,7 +184,7 @@ class FastMachineCache(
             }
 
             // deduct energy
-            machine.setCharge(pos.location, currentEnergy - energyNeeded)
+            machine.setCharge(pos.toLocation(), currentEnergy - energyNeeded)
         }
 
         // deduct inputs

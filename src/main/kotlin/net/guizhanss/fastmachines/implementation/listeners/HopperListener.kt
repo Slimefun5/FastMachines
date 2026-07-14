@@ -3,6 +3,7 @@ package net.guizhanss.fastmachines.implementation.listeners
 import me.mrCookieSlime.Slimefun.api.BlockStorage
 import net.guizhanss.fastmachines.FastMachines
 import net.guizhanss.fastmachines.core.items.attributes.NotAHopper
+import net.guizhanss.fastmachines.utils.CompatUtils
 import org.bukkit.event.EventHandler
 import org.bukkit.event.Listener
 import org.bukkit.event.inventory.InventoryMoveItemEvent
@@ -19,7 +20,8 @@ class HopperListener(plugin: FastMachines) : Listener {
     fun onPickupItem(e: InventoryPickupItemEvent) {
         if (e.inventory.type != InventoryType.HOPPER) return
 
-        val loc = e.inventory.location ?: return
+        // Inventory#getLocation() does not exist on 1.8.8 - resolve reflectively (null-safe there).
+        val loc = CompatUtils.inventoryLocation(e.inventory) ?: return
 
         val sfItem = BlockStorage.check(loc)
         if (sfItem is NotAHopper) {
@@ -29,9 +31,11 @@ class HopperListener(plugin: FastMachines) : Listener {
 
     @EventHandler
     fun onMoveItemIntoHopper(e: InventoryMoveItemEvent) {
-        val loc = e.destination.location ?: return
+        if (e.destination.type != InventoryType.HOPPER) return
 
-        if (e.destination.type == InventoryType.HOPPER && BlockStorage.check(loc) is NotAHopper) {
+        val loc = CompatUtils.inventoryLocation(e.destination) ?: return
+
+        if (BlockStorage.check(loc) is NotAHopper) {
             e.isCancelled = true
         }
     }

@@ -1,6 +1,6 @@
 package net.guizhanss.fastmachines.utils.reflections
 
-import net.guizhanss.guizhanlib.kt.common.utils.invoke
+import net.guizhanss.fastmachines.libs.guizhanlib.reflect.invoke
 import org.bukkit.inventory.ItemStack
 import org.bukkit.inventory.Recipe
 

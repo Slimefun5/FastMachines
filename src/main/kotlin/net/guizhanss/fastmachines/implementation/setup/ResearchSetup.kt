@@ -1,10 +1,9 @@
 package net.guizhanss.fastmachines.implementation.setup
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack
-import io.github.thebusybiscuit.slimefun4.api.researches.Research
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack
+import io.github.thebusybiscuit.slimefun5.api.researches.Research
 import net.guizhanss.fastmachines.implementation.items.FMItems
 import net.guizhanss.fastmachines.utils.constants.Keys
-import net.guizhanss.guizhanlib.kt.slimefun.items.toItem
 
 object ResearchSetup {
 
@@ -51,17 +50,13 @@ object ResearchSetup {
             // infinity expansion
             FMItems.FAST_INFINITY_WORKBENCH,
             FMItems.FAST_MOB_DATA_INFUSER,
-            // slimeframe
-            FMItems.FAST_SLIMEFRAME_FOUNDRY,
-            // infinity expansion 2
-            FMItems.FAST_INFINITY_WORKBENCH_2,
-            FMItems.FAST_MOB_DATA_INFUSER_2,
+            // NOTE: SlimeFrame + InfinityExpansion2 machines dropped (soft-deps not yet ported) - see FMItems.
         ).register()
     }
 
     private fun Research.addItems(vararg items: SlimefunItemStack): Research {
         items.forEach { item ->
-            addItems(item.toItem())
+            addItems(item.item())
         }
         return this
     }

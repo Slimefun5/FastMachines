@@ -1,9 +1,9 @@
 package net.guizhanss.fastmachines.core.items
 
-import io.github.thebusybiscuit.slimefun4.utils.itemstack.ItemStackWrapper
+import io.github.thebusybiscuit.slimefun5.utils.itemstack.ItemStackWrapper
+import net.guizhanss.fastmachines.libs.guizhanlib.items.getSlimefunItem
+import net.guizhanss.fastmachines.libs.guizhanlib.items.isSlimefunItem
 import net.guizhanss.fastmachines.utils.items.isSimilarTo
-import net.guizhanss.guizhanlib.kt.slimefun.extensions.getSlimefunItem
-import net.guizhanss.guizhanlib.kt.slimefun.extensions.isSlimefunItem
 import org.bukkit.Material
 import org.bukkit.inventory.ItemStack
 

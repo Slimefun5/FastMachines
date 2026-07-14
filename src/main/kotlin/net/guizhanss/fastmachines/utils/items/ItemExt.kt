@@ -1,33 +1,23 @@
-@file:Suppress("deprecation")
-
 package net.guizhanss.fastmachines.utils.items
 
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun
 import net.guizhanss.fastmachines.FastMachines
 import net.guizhanss.fastmachines.core.items.ItemWrapper
-import net.guizhanss.guizhanlib.minecraft.utils.MinecraftVersionUtil
+import net.guizhanss.fastmachines.utils.CompatUtils
+import net.guizhanss.fastmachines.utils.MetaCompat
+import net.guizhanss.fastmachines.utils.isAirMaterial
 import org.bukkit.inventory.ItemStack
-import org.bukkit.inventory.meta.AxolotlBucketMeta
-import org.bukkit.inventory.meta.BannerMeta
-import org.bukkit.inventory.meta.BookMeta
-import org.bukkit.inventory.meta.BundleMeta
-import org.bukkit.inventory.meta.CompassMeta
-import org.bukkit.inventory.meta.Damageable
-import org.bukkit.inventory.meta.EnchantmentStorageMeta
-import org.bukkit.inventory.meta.FireworkEffectMeta
-import org.bukkit.inventory.meta.FireworkMeta
-import org.bukkit.inventory.meta.ItemMeta
-import org.bukkit.inventory.meta.LeatherArmorMeta
-import org.bukkit.inventory.meta.MapMeta
-import org.bukkit.inventory.meta.PotionMeta
-import org.bukkit.inventory.meta.SkullMeta
-import org.bukkit.inventory.meta.SuspiciousStewMeta
-import org.bukkit.inventory.meta.TropicalFishBucketMeta
 
 /**
  * Strictly compares a [ItemWrapper] to an [ItemStack].
  *
  * Modified from [Networks by Sefiraat](https://github.com/Sefiraat/Networks/blob/master/src/main/java/io/github/sefiraat/networks/utils/StackUtils.java).
+ *
+ * Every post-1.8 meta comparison (PDC, custom model data, and the per-type `CompassMeta`/`Damageable`/
+ * ... refinements) is delegated to the guarded [MetaCompat] helper and only invoked when
+ * [CompatUtils.advancedItemMetaSupported] is true, so those post-1.8 types/methods are never resolved
+ * on legacy servers. On 1.8-1.15 the base comparison below (type, display name, lore, enchants, item
+ * flags, Slimefun id) is used.
  */
 fun ItemWrapper?.isSimilarTo(other: ItemStack?, checkLore: Boolean = false): Boolean {
     // null check
@@ -40,7 +30,7 @@ fun ItemWrapper?.isSimilarTo(other: ItemStack?, checkLore: Boolean = false): Boo
 
     // type check
     if (baseItem.type != other.type) return false
-    if (baseItem.type.isAir || other.type.isAir) return false
+    if (isAirMaterial(baseItem.type) || isAirMaterial(other.type)) return false
 
     // has meta check
     if (baseItemMeta == null || !other.hasItemMeta()) {
@@ -48,24 +38,17 @@ fun ItemWrapper?.isSimilarTo(other: ItemStack?, checkLore: Boolean = false): Boo
     }
 
     val thisMeta = baseItemMeta
-    val otherMeta = other.itemMeta
+    val otherMeta = other.itemMeta!!
 
     if (thisMeta.javaClass != otherMeta.javaClass) return false
 
-    if (thisMeta.quickNotEquals(otherMeta)) return false
+    // version-sensitive meta comparison (PDC / custom model data / per-type refinements) - guarded
+    if (CompatUtils.advancedItemMetaSupported() && MetaCompat.metaDiffers(thisMeta, otherMeta)) {
+        return false
+    }
 
     // has display name check
     if (thisMeta.hasDisplayName() != otherMeta.hasDisplayName()) return false
-
-    // custom model data check
-    if (!thisMeta.hasCustomModelData() || !otherMeta.hasCustomModelData()) {
-        if (thisMeta.hasCustomModelData() != otherMeta.hasCustomModelData()) return false
-    } else {
-        if (thisMeta.customModelData != otherMeta.customModelData) return false
-    }
-
-    // pdc check
-    if (thisMeta.persistentDataContainer != otherMeta.persistentDataContainer) return false
 
     // enchantments check
     if (thisMeta.enchants != otherMeta.enchants) return false
@@ -93,95 +76,6 @@ fun ItemWrapper?.isSimilarTo(other: ItemStack?, checkLore: Boolean = false): Boo
     return true
 }
 
-private fun ItemMeta.quickNotEquals(other: ItemMeta): Boolean {
-    if (this is Damageable && other is Damageable) {
-        if (this.damage != other.damage) return true
-    }
-
-    if (this is AxolotlBucketMeta && other is AxolotlBucketMeta) {
-        if (this.hasVariant() != other.hasVariant()) return true
-        if (!this.hasVariant() || !other.hasVariant()) return true
-        if (this.variant != other.variant) return true
-    }
-
-    if (this is BannerMeta && other is BannerMeta) {
-        if (this.patterns != other.patterns) return true
-    }
-
-    if (this is BookMeta && other is BookMeta) {
-        if (this.pageCount != other.pageCount) return true
-        if (this.author != other.author) return true
-        if (this.title != other.title) return true
-        if (this.generation != other.generation) return true
-    }
-
-    if (this is BundleMeta && other is BundleMeta) {
-        if (this.items != other.items) return true
-    }
-
-    if (this is CompassMeta && other is CompassMeta) {
-        if (this.isLodestoneTracked != other.isLodestoneTracked) return true
-        if (this.lodestone != other.lodestone) return true
-    }
-
-    if (this is EnchantmentStorageMeta && other is EnchantmentStorageMeta) {
-        if (this.hasStoredEnchants() != other.hasStoredEnchants()) return true
-        if (this.storedEnchants != other.storedEnchants) return true
-    }
-
-    if (this is FireworkEffectMeta && other is FireworkEffectMeta) {
-        if (this.effect != other.effect) return true
-    }
-
-    if (this is FireworkMeta && other is FireworkMeta) {
-        if (this.power != other.power) return true
-        if (this.effects != other.effects) return true
-    }
-
-    if (this is LeatherArmorMeta && other is LeatherArmorMeta) {
-        if (this.color != other.color) return true
-    }
-
-    if (this is MapMeta && other is MapMeta) {
-        if (this.hasMapView() != other.hasMapView()) return true
-        if (this.hasLocationName() != other.hasLocationName()) return true
-        if (this.hasColor() != other.hasColor()) return true
-        if (this.mapView != other.mapView) return true
-        if (this.locationName != other.locationName) return true
-        if (this.color != other.color) return true
-    }
-
-    if (this is PotionMeta && other is PotionMeta) {
-        if (MinecraftVersionUtil.isAtLeast(1, 20, 5)) {
-            if (this.basePotionType != other.basePotionType) return true
-        } else {
-            if (this.basePotionData != other.basePotionData) return true
-        }
-        if (this.hasCustomEffects() != other.hasCustomEffects()) return true
-        if (this.hasColor() != other.hasColor()) return true
-        if (this.color != other.color) return true
-        if (this.customEffects != other.customEffects) return true
-    }
-
-    if (this is SkullMeta && other is SkullMeta) {
-        if (this.hasOwner() != other.hasOwner()) return true
-        if (this.owningPlayer != other.owningPlayer) return true
-    }
-
-    if (this is SuspiciousStewMeta && other is SuspiciousStewMeta) {
-        if (this.customEffects != other.customEffects) return true
-    }
-
-    if (this is TropicalFishBucketMeta && other is TropicalFishBucketMeta) {
-        if (this.hasVariant() != other.hasVariant()) return true
-        if (this.pattern != other.pattern) return true
-        if (this.bodyColor != other.bodyColor) return true
-        if (this.patternColor != other.patternColor) return true
-    }
-
-    return false
-}
-
 /**
  * Returns a list of [ItemWrapper]s that all similar items are merged into one wrapper.
  */
@@ -189,7 +83,7 @@ fun Collection<ItemStack?>.countItems(): Map<ItemWrapper, Int> {
     val result = mutableMapOf<ItemWrapper, Int>()
 
     for (item in this) {
-        if (item == null || item.type.isAir) continue
+        if (item == null || isAirMaterial(item.type)) continue
 
         val wrapper = ItemWrapper.of(item)
         result[wrapper] = (result[wrapper] ?: 0) + item.amount
@@ -197,4 +91,3 @@ fun Collection<ItemStack?>.countItems(): Map<ItemWrapper, Int> {
 
     return result.toSortedMap()
 }
-

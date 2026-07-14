@@ -1,10 +1,13 @@
 package net.guizhanss.fastmachines.implementation.items.machines.slimefun
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems
-import io.github.thebusybiscuit.slimefun4.implementation.items.altar.AncientAltar
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems
+import io.github.thebusybiscuit.slimefun5.implementation.items.altar.AncientAltar
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial
+import net.guizhanss.fastmachines.utils.MaterialCompat
 import net.guizhanss.fastmachines.core.recipes.choices.ExactChoice
 import net.guizhanss.fastmachines.core.recipes.loaders.RecipeLoader
 import net.guizhanss.fastmachines.core.recipes.raw.RawRecipe
@@ -21,16 +24,16 @@ class FastAncientAltar(
 ) : BasicFastMachine(itemGroup, itemStack, recipeType, recipe) {
 
     override val craftItemMaterial: Material
-        get() = Material.ENCHANTING_TABLE
+        get() = MaterialCompat.safe(XMaterial.ENCHANTING_TABLE)
 
     override val recipeLoader: RecipeLoader
         get() = object : RecipeLoader(this) {
             override fun beforeLoad() {
-                val altar = SlimefunItems.ANCIENT_ALTAR.item as? AncientAltar ?: return
+                val altar = SlimefunItem.getById(SlimefunItems.ANCIENT_ALTAR.itemId) as? AncientAltar ?: return
 
                 for (recipe in altar.recipes) {
                     // explicitly ignore spawner recipes
-                    if (recipe.output.type === Material.SPAWNER) continue
+                    if (recipe.output.type == MaterialCompat.safe(XMaterial.SPAWNER)) continue
 
                     val input = recipe.input.toMutableList()
                     input.add(recipe.catalyst)

@@ -1,9 +1,11 @@
 package net.guizhanss.fastmachines.implementation.items.machines.infinityexpansion
 
 import io.github.mooy1.infinityexpansion.items.mobdata.MobDataInfuser
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial
+import net.guizhanss.fastmachines.utils.MaterialCompat
 import net.guizhanss.fastmachines.FastMachines
 import net.guizhanss.fastmachines.core.recipes.loaders.InfinityExpansionRecipeLoader
 import net.guizhanss.fastmachines.core.recipes.loaders.RecipeLoader
@@ -19,7 +21,7 @@ class FastMobDataInfuser(
 ) : BaseFastMachine(itemGroup, itemStack, recipeType, recipe, 200_000, 20_000) {
 
     override val craftItemMaterial: Material
-        get() = Material.LODESTONE
+        get() = MaterialCompat.safe(XMaterial.LODESTONE)
 
     override val recipeLoader: RecipeLoader
         get() = InfinityExpansionRecipeLoader(this, MobDataInfuser::class.java)
