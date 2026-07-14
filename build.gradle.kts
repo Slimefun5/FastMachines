@@ -38,7 +38,11 @@ dependencies {
 tasks {
     shadowJar {
         relocate("org.bstats", "net.guizhanss.fastmachines.libs.bstats")
-        minimize()
+        // Keep the full Kotlin stdlib + reflect: reflection impl is loaded dynamically, so minimize()
+        // can't see it's needed and would strip kotlin-reflect (KotlinReflectionNotSupportedError at runtime).
+        minimize {
+            exclude(dependency("org.jetbrains.kotlin:.*:.*"))
+        }
         exclude("io/github/thebusybiscuit/slimefun5/**")
     }
 }
