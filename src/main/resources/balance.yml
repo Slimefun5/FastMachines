@@ -1,0 +1,36 @@
+# Per-item balance scores (0-100) for FastMachines, relative to vanilla Minecraft.
+# Read by Slimefun's BalanceService (overrides the auto heuristic). Bands:
+#   0-10 Trivial | 11-25 Standard | 26-40 Advanced | 41-69 Powerful | 70-100 Overpowered
+#   (vanilla anchors: iron gear ~15, netherite ~30, beacon ~35, end crystal ~70, mace ~85)
+# FastMachines are convenience machines: they batch-craft recipes the player can already make in
+# the corresponding vanilla/Slimefun machine, without ordering ingredients, for a tiny energy cost
+# (1024 J buffer, 8 J per craft). Scores below reflect that time-saving utility, not new power.
+scores:
+  # --- Materials ---
+  FM_STACKED_ANCIENT_PEDESTAL: 18  # 4 Ancient Pedestals compressed into one
+  FM_FAST_CORE: 15                 # small capacitor + redstone alloy, gates every machine recipe
+  FM_ETERNAL_FIRE: 14              # flint & steel + ignition chamber + netherrack crafting material
+
+  # --- Machines - Vanilla (batch versions of free vanilla stations) ---
+  FM_FAST_CRAFTING_TABLE: 20       # 1024 J, 8 J/craft, unordered batch vanilla crafting
+  FM_FAST_FURNACE: 20              # 1024 J, 8 J/craft, unordered batch vanilla smelting
+
+  # --- Machines - Slimefun (batch versions of Slimefun stations) ---
+  FM_FAST_ENHANCED_CRAFTING_TABLE: 24 # 1024 J, 8 J/craft, batch Enhanced Crafting Table
+  FM_FAST_MAGIC_WORKBENCH: 26      # 1024 J, 8 J/craft, batch Magic Workbench (magic recipes)
+  FM_FAST_ANCIENT_ALTAR: 28        # 1024 J, 8 J/craft, batch Ancient Altar (endgame rituals)
+  FM_FAST_ARMOR_FORGE: 25          # 1024 J, 8 J/craft, batch Armor Forge
+  FM_FAST_SMELTERY: 25             # 1024 J, 8 J/craft, batch Smeltery (alloys)
+  FM_FAST_ORE_CRUSHER: 24          # 1024 J, 8 J/craft, batch Ore Crusher
+  FM_FAST_ORE_WASHER: 24           # 1024 J, 8 J/craft, batch Ore Washer
+  FM_FAST_COMPRESSOR: 24           # 1024 J, 8 J/craft, batch Compressor
+  FM_FAST_PRESSURE_CHAMBER: 24     # 1024 J, 8 J/craft, batch Pressure Chamber
+  FM_FAST_GRIND_STONE: 22          # 1024 J, 8 J/craft, batch Grind Stone
+  FM_FAST_TABLE_SAW: 22            # 1024 J, 8 J/craft, batch Table Saw
+  FM_FAST_JUICER: 22               # 1024 J, 8 J/craft, batch Juicer
+  FM_FAST_COMPOSTER: 22            # 1024 J, 8 J/craft, batch Composter
+  FM_FAST_PANNING_MACHINE: 22      # 1024 J, 8 J/craft, batch Panning Machine
+
+  # --- Machines - InfinityExpansion (batch versions of endgame InfinityExpansion stations) ---
+  FM_FAST_INFINITY_WORKBENCH: 40   # 100,000,000 J buffer, 10,000,000 J/craft, batch Infinity crafting
+  FM_FAST_MOB_DATA_INFUSER: 34     # 200,000 J buffer, 20,000 J/craft, batch Mob Data infusing

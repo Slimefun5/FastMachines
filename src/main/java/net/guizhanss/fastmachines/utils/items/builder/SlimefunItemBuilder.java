@@ -1,8 +1,5 @@
 package net.guizhanss.fastmachines.utils.items.builder;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -12,7 +9,6 @@ import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 
 import net.guizhanss.fastmachines.FastMachines;
-import net.guizhanss.fastmachines.libs.guizhanlib.utils.ChatUtil;
 
 /**
  * A small builder for constructing a {@link SlimefunItem}, adapted for FastMachines.
@@ -34,7 +30,6 @@ public class SlimefunItemBuilder {
     private ItemGroup itemGroup;
     private RecipeType recipeType;
     private ItemStack[] recipe = new ItemStack[9];
-    private final List<String> extraLore = new ArrayList<>();
 
     public SlimefunItemBuilder(String prefix) {
         this.prefix = prefix;
@@ -70,17 +65,10 @@ public class SlimefunItemBuilder {
         return this;
     }
 
-    public SlimefunItemBuilder lore(String line) {
-        extraLore.add(ChatUtil.color(line));
-        return this;
-    }
-
     public <T extends SlimefunItem> SlimefunItemStack build(ItemFactory<T> factory) {
-        String name = FastMachines.getLocalization().getItemName(id);
-        List<String> lore = new ArrayList<>(FastMachines.getLocalization().getItemLore(id));
-        lore.addAll(extraLore);
-
-        SlimefunItemStack sfis = new SlimefunItemStack(prefix + id, material, name, lore.toArray(new String[0]));
+        // Name and lore are supplied per-language by the core ItemTranslationService from
+        // languages/<lang>/items.yml, so the item is constructed name-less (2-arg constructor).
+        SlimefunItemStack sfis = new SlimefunItemStack(prefix + id, material);
         sfis.setAmount(amount);
 
         T item = factory.create(itemGroup, sfis, recipeType, recipe);

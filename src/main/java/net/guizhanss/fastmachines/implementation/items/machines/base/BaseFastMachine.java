@@ -19,7 +19,6 @@ import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetComponent;
 import io.github.thebusybiscuit.slimefun5.core.networks.energy.EnergyNetComponentType;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.blocks.BlockPosition;
 import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
-import io.github.thebusybiscuit.slimefun5.utils.LoreBuilder;
 
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
@@ -140,7 +139,8 @@ public abstract class BaseFastMachine extends MenuBlock implements EnergyNetComp
             ENERGY_SLOT,
             Items.edit(io.github.thebusybiscuit.slimefun5.utils.HeadTexture.ENERGY_CONNECTOR.getAsItemStack(), e -> {
                 e.name(" ");
-                e.lore(LoreBuilder.power(getEnergyPerUse(), FastMachines.getLocalization().getString("lores.per-craft")));
+                e.lore("&8⇨ &e⚡ &7" + getEnergyPerUse() + " J"
+                    + FastMachines.getLocalization().getString("lores.per-craft"));
             }),
             ChestMenuUtils.getEmptyClickHandler()
         );
