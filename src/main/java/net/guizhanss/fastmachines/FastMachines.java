@@ -6,6 +6,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import io.github.thebusybiscuit.slimefun5.api.SlimefunAddon;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.updater.BlobBuildUpdater;
 
 import org.bstats.bukkit.Metrics;
@@ -72,6 +73,9 @@ public class FastMachines extends JavaPlugin implements SlimefunAddon {
 
         // item setup
         FMItems.setup();
+
+        // register per-language item translations (languages/<lang>/items.yml)
+        Slimefun.getItemTranslationService().registerTranslations(this);
 
         // researches setup
         if (configService.getEnableResearches().getValue()) {
