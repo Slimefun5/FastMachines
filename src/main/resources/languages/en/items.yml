@@ -4,16 +4,22 @@
 # --- Materials ---
 FM_FAST_CORE:
   name: "&bFast Core"
+  type:
+    - "&7&oResource"
   description:
     - "&7The core of a Fast Machine."
 
 FM_ETERNAL_FIRE:
   name: "&4Eternal Fire"
+  type:
+    - "&7&oResource"
   description:
     - "&7The fire that never goes out."
 
 FM_STACKED_ANCIENT_PEDESTAL:
   name: "&6Stacked Ancient Pedestal"
+  type:
+    - "&7&oResource"
   description:
     - "&74 Ancient Pedestals in 1."
   usage:
