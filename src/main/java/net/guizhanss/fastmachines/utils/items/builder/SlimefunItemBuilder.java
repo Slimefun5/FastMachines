@@ -30,6 +30,7 @@ public class SlimefunItemBuilder {
     private ItemGroup itemGroup;
     private RecipeType recipeType;
     private ItemStack[] recipe = new ItemStack[9];
+    private String guideType;
 
     public SlimefunItemBuilder(String prefix) {
         this.prefix = prefix;
@@ -65,6 +66,12 @@ public class SlimefunItemBuilder {
         return this;
     }
 
+    // Declares the categorized-guide category for items the material/type heuristic can't classify.
+    public SlimefunItemBuilder guideType(String guideType) {
+        this.guideType = guideType;
+        return this;
+    }
+
     public <T extends SlimefunItem> SlimefunItemStack build(ItemFactory<T> factory) {
         // Name and lore are supplied per-language by the core ItemTranslationService from
         // languages/<lang>/items.yml, so the item is constructed name-less (2-arg constructor).
@@ -72,6 +79,9 @@ public class SlimefunItemBuilder {
         sfis.setAmount(amount);
 
         T item = factory.create(itemGroup, sfis, recipeType, recipe);
+        if (guideType != null) {
+            item.setGuideType(guideType);
+        }
         item.register(FastMachines.getAddon());
         return sfis;
     }
