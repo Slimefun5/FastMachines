@@ -84,7 +84,6 @@ public final class FMItems {
         final String prefix = FastMachines.getLocalization().getIdPrefix();
         final boolean useEnergy = FastMachines.getConfigService().getFmUseEnergy().getValue();
 
-        // ---- Materials ----
         ETERNAL_FIRE = new SlimefunItemBuilder(prefix)
             .id("ETERNAL_FIRE")
             .material(MaterialCompat.safe(XMaterial.IRON_INGOT))
@@ -124,7 +123,6 @@ public final class FMItems {
                 .build())
             .build(StackedAncientPedestal::new);
 
-        // ---- Machines - Vanilla ----
         FAST_CRAFTING_TABLE = new SlimefunItemBuilder(prefix)
             .id("FAST_CRAFTING_TABLE")
             .material(MaterialCompat.safe(XMaterial.CRAFTING_TABLE))
@@ -151,7 +149,6 @@ public final class FMItems {
                 .build())
             .build(FastFurnace::new);
 
-        // ---- Machines - Slimefun ----
         FAST_ENHANCED_CRAFTING_TABLE = new SlimefunItemBuilder(prefix)
             .id("FAST_ENHANCED_CRAFTING_TABLE")
             .material(MaterialCompat.safe(XMaterial.CARTOGRAPHY_TABLE))
@@ -357,7 +354,6 @@ public final class FMItems {
                 .build())
             .build(FastAncientAltar::new);
 
-        // ---- Machines - InfinityExpansion ----
         SlimefunItem infinityForge = SlimefunItemExt.getSfItem("INFINITY_FORGE");
         FAST_INFINITY_WORKBENCH = new SlimefunItemBuilder(prefix)
             .id("FAST_INFINITY_WORKBENCH")

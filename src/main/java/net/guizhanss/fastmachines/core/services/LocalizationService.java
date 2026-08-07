@@ -70,7 +70,6 @@ public class LocalizationService extends Localization {
         return MessageFormat.format(getString(key), args);
     }
 
-    // items
     public String getItemName(String itemId, Object... args) {
         return getString("items." + itemId + ".name", args);
     }

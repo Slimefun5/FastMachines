@@ -83,7 +83,6 @@ public class FastMachineCache {
     private void generateOutputs() {
         Map<ItemWrapper, Integer> inputs = MachineUtils.countItems(menu, BaseFastMachine.INPUT_SLOTS);
 
-        // if checksum does not need update
         if (inputs.hashCode() == invChecksum) {
             return;
         }
@@ -147,7 +146,6 @@ public class FastMachineCache {
     private void updateMenu() {
         needUpdateMenu = false;
 
-        // no available recipes, clear preview
         if (availableRecipes.isEmpty()) {
             for (int slot : BaseFastMachine.PREVIEW_SLOTS) {
                 menu.replaceExistingItem(slot, ChestMenuUtils.getBackground());
@@ -193,13 +191,11 @@ public class FastMachineCache {
     private void craft(Player p, int expectCrafts) {
         Map<ItemWrapper, Integer> inputs = MachineUtils.countItems(menu, BaseFastMachine.INPUT_SLOTS);
 
-        // check if a recipe is selected
         Recipe recipe = selectedRecipe;
         if (recipe == null) {
             return;
         }
 
-        // calculate and check craftable times
         int maxCraftable = minCraftable(recipe, inputs);
 
         int actualCrafts = Math.min(maxCraftable, expectCrafts);
@@ -208,7 +204,6 @@ public class FastMachineCache {
             return;
         }
 
-        // check if recipe is available for the player
         if (FastMachines.getConfigService().getFmRequireSfResearch().getValue()) {
             Set<Research> researches = new HashSet<>();
             for (org.bukkit.inventory.ItemStack output : recipe.getOutputs()) {
@@ -238,7 +233,6 @@ public class FastMachineCache {
             }
         }
 
-        // check if the machine has enough energy
         if (FastMachines.getConfigService().getFmUseEnergy().getValue()) {
             int maxCraftByEnergy = machine.getCapacity() / machine.getEnergyPerUse();
             actualCrafts = Math.min(actualCrafts, maxCraftByEnergy);
@@ -250,16 +244,13 @@ public class FastMachineCache {
                 return;
             }
 
-            // deduct energy
             machine.setCharge(pos.toLocation(), currentEnergy - energyNeeded);
         }
 
-        // deduct inputs
         for (RecipeChoice choice : recipe.getInputs()) {
             MachineUtils.consumeChoice(menu, choice, actualCrafts, BaseFastMachine.INPUT_SLOTS);
         }
 
-        // add outputs
         for (int i = 0; i < actualCrafts; i++) {
             org.bukkit.inventory.ItemStack outputItem = recipe.getOutput(pos.getWorld()).clone();
 

@@ -30,7 +30,6 @@ public final class ItemWrapper implements Comparable<ItemWrapper> {
     public static ItemWrapper of(ItemStack item) {
         ItemStack baseItem;
         if (item instanceof ItemStackWrapper) {
-            // Slimefun's ItemStackWrapper, construct a new ItemStack
             baseItem = new ItemStack(item.getType());
             if (item.hasItemMeta()) {
                 baseItem.setItemMeta(item.getItemMeta());
@@ -75,17 +74,14 @@ public final class ItemWrapper implements Comparable<ItemWrapper> {
 
     @Override
     public int compareTo(ItemWrapper other) {
-        // quick compare hash code, items with different hash code are likely different
         if (itemHash != other.itemHash) {
             return itemHash - other.itemHash;
         }
 
-        // same hash, compare item
         if (!ItemExt.isSimilarTo(this, other.baseItem)) {
             return baseItem.hashCode() - other.baseItem.hashCode();
         }
 
-        // should be same
         return 0;
     }
 

@@ -24,10 +24,8 @@ public final class ResearchSetup {
 
         machines = new Research(Keys.MACHINES, 1145142, "Fast Machines", 40);
         machines.addItems(
-            // vanilla
             FMItems.FAST_CRAFTING_TABLE.item(),
             FMItems.FAST_FURNACE.item(),
-            // slimefun
             FMItems.FAST_ENHANCED_CRAFTING_TABLE.item(),
             FMItems.FAST_GRIND_STONE.item(),
             FMItems.FAST_ARMOR_FORGE.item(),
@@ -42,7 +40,6 @@ public final class ResearchSetup {
             FMItems.FAST_PANNING_MACHINE.item(),
             FMItems.FAST_JUICER.item(),
             FMItems.FAST_ANCIENT_ALTAR.item(),
-            // infinity expansion
             FMItems.FAST_INFINITY_WORKBENCH.item(),
             FMItems.FAST_MOB_DATA_INFUSER.item()
             // NOTE: SlimeFrame + InfinityExpansion2 machines dropped (soft-deps not yet ported) - see FMItems.
