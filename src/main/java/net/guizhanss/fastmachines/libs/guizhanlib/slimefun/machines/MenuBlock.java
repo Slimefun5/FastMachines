@@ -25,8 +25,8 @@ import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
  *
  * Java-8-safe port of GuizhanLib 0.9.0's {@code MenuBlock} (itself "Modified from InfinityLib"):
  * the upstream jar is class-file version 60 (Java 16) and cannot be read by a Java-8 javac as a
- * compile dependency, so this vendored copy is used instead. Only the API package was migrated
- * (slimefun4 -&gt; slimefun5); the logic is unchanged from upstream.
+ * compile dependency, so this vendored copy is used instead. Only the API package name was
+ * updated for the fork; the logic is unchanged from upstream.
  *
  * @author Mooy1 (InfinityLib original)
  * @author ybw0014 (GuizhanLib port)
