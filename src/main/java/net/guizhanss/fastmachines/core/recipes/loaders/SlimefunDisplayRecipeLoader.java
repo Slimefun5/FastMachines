@@ -41,9 +41,7 @@ public class SlimefunDisplayRecipeLoader extends RecipeLoader {
         try {
             recipes = ((RecipeDisplayItem) sfItem).getDisplayRecipes();
         } catch (Throwable ex) {
-            // Some Slimefun items build their display recipes from materials that do not exist on legacy
-            // servers (e.g. GoldPan on 1.8.8 constructs an ItemStack from a null Material); on those
-            // versions simply register no recipes for this machine instead of crashing.
+            // Legacy servers can fail building display recipes (e.g. GoldPan on 1.8.8 uses a null Material); skip rather than crash.
             FastMachines.debug("Skipping display recipes for " + id + ": " + ex);
             return;
         }

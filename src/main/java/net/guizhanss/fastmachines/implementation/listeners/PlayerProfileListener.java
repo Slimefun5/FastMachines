@@ -16,7 +16,6 @@ public class PlayerProfileListener implements Listener {
 
     @EventHandler
     public void onJoin(PlayerJoinEvent e) {
-        // Load the player profile when the player joins, so that we can use it later
         PlayerProfile.get(e.getPlayer(), profile -> {
         });
     }

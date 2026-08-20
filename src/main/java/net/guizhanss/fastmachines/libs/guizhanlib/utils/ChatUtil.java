@@ -9,7 +9,7 @@ import org.bukkit.command.CommandSender;
 
 /**
  * Java-8-safe port of GuizhanLib's {@code ChatUtil}. Vendored (not a compile dependency) because
- * upstream GuizhanLib is Java-16 bytecode and coupled to the pre-fork {@code slimefun4} API.
+ * upstream GuizhanLib is Java-16 bytecode and coupled to Slimefun's pre-fork API.
  */
 @SuppressWarnings("deprecation")
 public final class ChatUtil {

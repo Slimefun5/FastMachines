@@ -11,7 +11,6 @@ public class ConfigService {
     private ConfigField<String> lang;
     private ConfigField<Boolean> enableResearches;
 
-    // fast machines options
     private ConfigField<Integer> fmTickRate;
     private ConfigField<Boolean> fmUseEnergy;
     private ConfigField<Boolean> fmRequireSfResearch;

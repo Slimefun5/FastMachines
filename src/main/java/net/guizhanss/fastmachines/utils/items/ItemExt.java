@@ -36,7 +36,6 @@ public final class ItemExt {
     }
 
     public static boolean isSimilarTo(ItemWrapper self, ItemStack other, boolean checkLore) {
-        // null check
         if (self == null || other == null) {
             return false;
         }
@@ -44,12 +43,10 @@ public final class ItemExt {
         ItemStack baseItem = self.getBaseItem();
         ItemMeta baseItemMeta = self.getBaseItemMeta();
 
-        // bukkit item comparison
         if (FastMachines.getConfigService().getFmUseBukkitItemComparison().getValue()) {
             return baseItem.isSimilar(other);
         }
 
-        // type check
         if (baseItem.getType() != other.getType()) {
             return false;
         }
@@ -57,7 +54,6 @@ public final class ItemExt {
             return false;
         }
 
-        // has meta check
         if (baseItemMeta == null || !other.hasItemMeta()) {
             return (baseItemMeta != null) == other.hasItemMeta();
         }
@@ -74,17 +70,14 @@ public final class ItemExt {
             return false;
         }
 
-        // has display name check
         if (thisMeta.hasDisplayName() != otherMeta.hasDisplayName()) {
             return false;
         }
 
-        // enchantments check
         if (!thisMeta.getEnchants().equals(otherMeta.getEnchants())) {
             return false;
         }
 
-        // item flags check
         if (!thisMeta.getItemFlags().equals(otherMeta.getItemFlags())) {
             return false;
         }
@@ -98,12 +91,10 @@ public final class ItemExt {
             }
         }
 
-        // display name check
         if (thisMeta.hasDisplayName() && !thisMeta.getDisplayName().equals(otherMeta.getDisplayName())) {
             return false;
         }
 
-        // lore check
         if (checkLore && !java.util.Objects.equals(thisMeta.getLore(), otherMeta.getLore())) {
             return false;
         }

@@ -20,9 +20,8 @@ import net.guizhanss.fastmachines.libs.guizhanlib.utils.FileUtil;
 
 /**
  * Reimplemented against the fork's own {@link SlimefunItemStack}/{@link SlimefunUtils} rather than
- * GuizhanLib's {@code SlimefunLocalization}: that upstream class's item helpers return the pre-fork
- * {@code io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack}, a type this package no
- * longer has.
+ * GuizhanLib's {@code SlimefunLocalization}: that upstream class's item helpers return the
+ * pre-fork package's {@code SlimefunItemStack}, a type this fork's renamed API no longer has.
  */
 public class LocalizationService extends Localization {
 
@@ -70,7 +69,6 @@ public class LocalizationService extends Localization {
         return MessageFormat.format(getString(key), args);
     }
 
-    // items
     public String getItemName(String itemId, Object... args) {
         return getString("items." + itemId + ".name", args);
     }

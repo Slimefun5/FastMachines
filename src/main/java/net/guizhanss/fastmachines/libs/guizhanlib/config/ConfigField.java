@@ -7,7 +7,7 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.config.Config;
  *
  * Java-8-safe port of the {@code ConfigField}/{@code addonConfig} DSL GuizhanLib-kt provided -
  * reimplemented against the fork's own dough {@link Config} rather than a compile dependency on
- * upstream GuizhanLib (Java-16 bytecode, coupled to the pre-fork {@code slimefun4} API).
+ * upstream GuizhanLib (Java-16 bytecode, coupled to Slimefun's pre-fork API).
  */
 public class ConfigField<T> {
 

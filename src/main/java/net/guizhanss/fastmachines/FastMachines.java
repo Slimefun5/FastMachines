@@ -50,11 +50,9 @@ public class FastMachines extends JavaPlugin implements SlimefunAddon {
         instance = this;
         scheduler = new Scheduler(this);
 
-        // config
         configService = new ConfigService(this);
         debug("Debug mode is enabled.");
 
-        // localization
         log(Level.INFO, "Loading language...");
         String lang = configService.getLang().getValue();
         localization = new LocalizationService(this, getFile());
@@ -65,31 +63,20 @@ public class FastMachines extends JavaPlugin implements SlimefunAddon {
         }
         log(Level.INFO, "Loaded language " + lang + ".");
 
-        // integrations
         integrationService = new IntegrationService(this);
 
-        // item groups setup
         FMItemGroups.setup();
-
-        // item setup
         FMItems.setup();
-
-        // register per-language item translations (languages/<lang>/items.yml)
         Slimefun.getItemTranslationService().registerTranslations(this);
 
-        // researches setup
         if (configService.getEnableResearches().getValue()) {
             ResearchSetup.setup();
         }
 
-        // listeners & tasks
         setupListeners();
         setupTasks();
-
-        // Metrics setup
         setupMetrics();
 
-        // auto-update
         if (configService.getAutoUpdate().getValue()) {
             autoUpdate();
         }
@@ -130,7 +117,10 @@ public class FastMachines extends JavaPlugin implements SlimefunAddon {
     }
 
     private void setupMetrics() {
-        new Metrics(this, 20046);
+        // Consolidated metrics: only start our own bStats if the server opted out (metrics.disable-addon-metrics = false).
+        if (Slimefun.getCfg().contains("metrics.disable-addon-metrics") && !Slimefun.getCfg().getBoolean("metrics.disable-addon-metrics")) {
+            new Metrics(this, 20046);
+        }
     }
 
     public static FastMachines getInstance() {

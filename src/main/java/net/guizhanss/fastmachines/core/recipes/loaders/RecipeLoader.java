@@ -40,7 +40,6 @@ public abstract class RecipeLoader {
      * Implementing classes should override this method to add recipes to {@code rawRecipes}.
      */
     public void beforeLoad() {
-        // there is nothing here in the default loader
     }
 
     public void load() {
@@ -77,7 +76,6 @@ public abstract class RecipeLoader {
                     }
                 }
 
-                // all disabled, no recipe
                 if (outputs.isEmpty()) {
                     continue;
                 }
@@ -118,7 +116,6 @@ public abstract class RecipeLoader {
 
                 ItemStack outputItem = rawRecipe.getOutput().get(0);
 
-                // no need to load recipe if the output item is disabled
                 if (SlimefunItemExt.isDisabled(outputItem)) {
                     FastMachines.debug("  - Output item is a disabled Slimefun item, skipping");
                     continue;

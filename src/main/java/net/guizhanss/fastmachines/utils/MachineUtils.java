@@ -40,7 +40,6 @@ public final class MachineUtils {
         FastMachines.debug("Consuming choice " + choice + " with amount of " + amount);
         int remainingAmount = amount;
 
-        // Iterate over each possible choice item until the requirement is fully met
         choiceLoop:
         for (Map.Entry<ItemWrapper, Integer> entry : choice.getChoices().entrySet()) {
             ItemWrapper choiceItem = entry.getKey();
@@ -67,7 +66,6 @@ public final class MachineUtils {
                 totalRequiredAmount -= consumeNow;
             }
 
-            // Update remaining amount of recipes to fulfill
             remainingAmount = totalRequiredAmount / choiceAmount;
         }
     }
