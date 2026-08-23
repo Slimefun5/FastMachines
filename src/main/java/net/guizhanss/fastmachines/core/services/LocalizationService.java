@@ -11,6 +11,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 
 import net.guizhanss.fastmachines.FastMachines;
@@ -83,6 +84,24 @@ public class LocalizationService extends Localization {
 
     public SlimefunItemStack getItem(String id, String texture, String... extraLore) {
         return getItem(id, SlimefunUtils.getCustomHead(texture), extraLore);
+    }
+
+    /**
+     * An item-group icon: pure decoration, never a registered item.
+     *
+     * @implNote Deliberately NOT a {@code SlimefunItemStack}: that type always overwrites the display name
+     *           with the raw id, so the category rendered as "FM_FAST_MACHINES" in the guide.
+     */
+    public ItemStack getItemGroupItem(String id, ItemStack itemStack) {
+        return CustomItemStack.create(itemStack, getItemName(id), getItemLore(id).toArray(new String[0]));
+    }
+
+    public ItemStack getItemGroupItem(String id, Material material) {
+        return getItemGroupItem(id, new ItemStack(material));
+    }
+
+    public ItemStack getItemGroupItem(String id, String texture) {
+        return getItemGroupItem(id, SlimefunUtils.getCustomHead(texture));
     }
 
     public SlimefunItemStack getItem(String id, ItemStack itemStack, String... extraLore) {

@@ -24,19 +24,19 @@ public final class FMItemGroups {
     public static void setup() {
         MAIN = new NestedItemGroup(
             Keys.MAIN_GROUP,
-            FastMachines.getLocalization().getItem("FAST_MACHINES", HeadTexture.MAIN.getTexture()).item()
+            FastMachines.getLocalization().getItemGroupItem("FAST_MACHINES", HeadTexture.MAIN.getTexture())
         );
 
         MATERIALS = new SubItemGroup(
             Keys.MATERIALS,
             MAIN,
-            FastMachines.getLocalization().getItem("MATERIALS", Material.DIAMOND).item()
+            FastMachines.getLocalization().getItemGroupItem("MATERIALS", Material.DIAMOND)
         );
 
         MACHINES = new SubItemGroup(
             Keys.MACHINES,
             MAIN,
-            FastMachines.getLocalization().getItem("MACHINES", HeadTexture.MAIN.getTexture()).item()
+            FastMachines.getLocalization().getItemGroupItem("MACHINES", HeadTexture.MAIN.getTexture())
         );
 
         HIDDEN = new HiddenItemGroup(
