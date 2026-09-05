@@ -1,2 +1,63 @@
-# Polish item translations for FastMachines. Keyed by Slimefun item id (with the "FM_" prefix).
-# name = display name with '&' colour codes. Missing items fall back to English.
+FM_ETERNAL_FIRE:
+  type:
+  - '&7&oSurowiec'
+FM_FAST_ANCIENT_ALTAR:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_ARMOR_FORGE:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_COMPOSTER:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_COMPRESSOR:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_CORE:
+  type:
+  - '&7&oSurowiec'
+FM_FAST_CRAFTING_TABLE:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_ENHANCED_CRAFTING_TABLE:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_FURNACE:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_GRIND_STONE:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_INFINITY_WORKBENCH:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_JUICER:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_MAGIC_WORKBENCH:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_MOB_DATA_INFUSER:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_ORE_CRUSHER:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_ORE_WASHER:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_PANNING_MACHINE:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_PRESSURE_CHAMBER:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_SMELTERY:
+  type:
+  - '&7&oMaszyna'
+FM_FAST_TABLE_SAW:
+  type:
+  - '&7&oMaszyna'
+FM_STACKED_ANCIENT_PEDESTAL:
+  type:
+  - '&7&oSurowiec'
