@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7Ugnis, kuri niekada neužgęsta.'
+  name: '&4Amžinoji ugnis'
   type:
   - '&7&oIšteklius'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7Naudingesnis senovinis altorius.'
+  name: '&aGreitasis senovinis altorius'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7Naudingesnė šarvų kalvė.'
+  name: '&aGreitoji šarvų kalvė'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7Naudingesnis kompostuotojas.'
+  name: '&aGreitasis kompostuotojas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7Naudingesnis suspaudiklis.'
+  name: '&aGreitasis suspaudiklis'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_CORE:
+  description:
+  - '&7Greitosios mašinos šerdis.'
+  name: '&bGreitoji šerdis'
   type:
   - '&7&oIšteklius'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7Naudingesnis vanilinis gaminimo stalas.'
+  name: '&aGreitasis gaminimo stalas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7Naudingesnis patobulintas gaminimo stalas.'
+  name: '&aGreitasis patobulintas gaminimo stalas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_FURNACE:
+  description:
+  - '&7Naudingesnė vanilinė krosnis.'
+  name: '&aGreitoji krosnis'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7Naudingesnis galandimo akmuo.'
+  name: '&aGreitasis galandimo akmuo'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7Naudingesnis begalybės darbastalis.'
+  name: '&aGreitasis begalybės darbastalis'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J buferis'
+  - '&8⇨ &e⚡ &710000000 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_JUICER:
+  description:
+  - '&7Naudingesnė sulčiaspaudė.'
+  name: '&aGreitoji sulčiaspaudė'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7Naudingesnis magijos darbastalis.'
+  name: '&aGreitasis magijos darbastalis'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7Naudingesnis mobų duomenų įsotintuvas.'
+  name: '&aGreitasis mobų duomenų įsotintuvas'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J buferis'
+  - '&8⇨ &e⚡ &720000 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7Naudingesnis rūdos smulkintuvas.'
+  name: '&aGreitasis rūdos smulkintuvas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7Naudingesnė rūdos plautuvė.'
+  name: '&aGreitoji rūdos plautuvė'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7Naudingesnė automatinė plovimo mašina.'
+  name: '&aGreitoji plovimo mašina'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7Naudingesnė slėgio kamera.'
+  name: '&aGreitoji slėgio kamera'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7Naudingesnė lydykla.'
+  name: '&aGreitoji lydykla'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7Naudingesnis stalinis pjūklas.'
+  name: '&aGreitasis stalinis pjūklas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J už gaminimą'
   type:
   - '&7&oMašina'
+  usage:
+  - '&7Gaminkite nedėdami daiktų tam tikra tvarka.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 senoviniai postamentai 1-ame.'
+  name: '&6Sukrautas senovinis postamentas'
   type:
   - '&7&oIšteklius'
+  usage:
+  - '&eDešinysis spustelėjimas &7- išskaido į 4 senovinius postamentus.'
