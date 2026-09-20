@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7Uguns, kas nekad nenodziest.'
+  name: '&4Mūžīgā uguns'
   type:
   - '&7&oResurss'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7Noderīgāks senais altāris.'
+  name: '&aĀtrais senais altāris'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7Noderīgāka bruņu kalve.'
+  name: '&aĀtrā bruņu kalve'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7Noderīgāks komposteris.'
+  name: '&aĀtrais komposteris'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7Noderīgāks kompresors.'
+  name: '&aĀtrais kompresors'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_CORE:
+  description:
+  - '&7Ātrās mašīnas kodols.'
+  name: '&bĀtrais kodols'
   type:
   - '&7&oResurss'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7Noderīgāks parastais izgatavošanas galds.'
+  name: '&aĀtrais izgatavošanas galds'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7Noderīgāks uzlabotais izgatavošanas galds.'
+  name: '&aĀtrais uzlabotais izgatavošanas galds'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_FURNACE:
+  description:
+  - '&7Noderīgāka parastā krāsns.'
+  name: '&aĀtrā krāsns'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7Noderīgāks slīpakmens.'
+  name: '&aĀtrais slīpakmens'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7Noderīgāks bezgalības darbgalds.'
+  name: '&aĀtrais bezgalības darbgalds'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J buferis'
+  - '&8⇨ &e⚡ &710000000 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_JUICER:
+  description:
+  - '&7Noderīgāka sulas spiede.'
+  name: '&aĀtrā sulas spiede'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7Noderīgāks maģiskais darbgalds.'
+  name: '&aĀtrais maģiskais darbgalds'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7Noderīgāks mobu datu iepludinātājs.'
+  name: '&aĀtrais mobu datu iepludinātājs'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J buferis'
+  - '&8⇨ &e⚡ &720000 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7Noderīgāks rūdas smalcinātājs.'
+  name: '&aĀtrais rūdas smalcinātājs'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7Noderīgāks rūdas mazgātājs.'
+  name: '&aĀtrais rūdas mazgātājs'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7Noderīgāka automatizētā skalošanas mašīna.'
+  name: '&aĀtrā skalošanas mašīna'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7Noderīgāka spiediena kamera.'
+  name: '&aĀtrā spiediena kamera'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7Noderīgāka kausētava.'
+  name: '&aĀtrā kausētava'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7Noderīgāks galda zāģis.'
+  name: '&aĀtrais galda zāģis'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buferis'
+  - '&8⇨ &e⚡ &78 J par izgatavošanu'
   type:
   - '&7&oMašīna'
+  usage:
+  - '&7Izgatavo bez nepieciešamības likt priekšmetus secībā.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 senie pjedestāli 1 vienībā.'
+  name: '&6Sakrautais senais pjedestāls'
   type:
   - '&7&oResurss'
+  usage:
+  - '&eLabais klikšķis&7, lai sadalītu 4 senajos pjedestālos.'
