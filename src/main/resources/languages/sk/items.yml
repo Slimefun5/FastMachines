@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7Oheň, ktorý nikdy nezhasne.'
+  name: '&4Večný oheň'
   type:
   - '&7&oSurovina'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7Užitočnejší staroveký oltár.'
+  name: '&aRýchly staroveký oltár'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7Užitočnejšia vyhňa na brnenie.'
+  name: '&aRýchla vyhňa na brnenie'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7Užitočnejší kompostér.'
+  name: '&aRýchly kompostér'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7Užitočnejší lis.'
+  name: '&aRýchly lis'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_CORE:
+  description:
+  - '&7Jadro rýchleho stroja.'
+  name: '&bRýchle jadro'
   type:
   - '&7&oSurovina'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7Užitočnejší vanilla pracovný stôl.'
+  name: '&aRýchly pracovný stôl'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7Užitočnejší vylepšený pracovný stôl.'
+  name: '&aRýchly vylepšený pracovný stôl'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_FURNACE:
+  description:
+  - '&7Užitočnejšia vanilla pec.'
+  name: '&aRýchla pec'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7Užitočnejší brúsny kameň.'
+  name: '&aRýchly brúsny kameň'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7Užitočnejší nekonečný pracovný stôl.'
+  name: '&aRýchly nekonečný pracovný stôl'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J zásobník'
+  - '&8⇨ &e⚡ &710000000 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_JUICER:
+  description:
+  - '&7Užitočnejší odšťavovač.'
+  name: '&aRýchly odšťavovač'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7Užitočnejší magický pracovný stôl.'
+  name: '&aRýchly magický pracovný stôl'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7Užitočnejší vnášač dát príšer.'
+  name: '&aRýchly vnášač dát príšer'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J zásobník'
+  - '&8⇨ &e⚡ &720000 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7Užitočnejší drvič rúd.'
+  name: '&aRýchly drvič rúd'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7Užitočnejšia práčka rúd.'
+  name: '&aRýchla práčka rúd'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7Užitočnejší automatický ryžovací stroj.'
+  name: '&aRýchly ryžovací stroj'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7Užitočnejšia tlaková komora.'
+  name: '&aRýchla tlaková komora'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7Užitočnejšia taviareň.'
+  name: '&aRýchla taviareň'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7Užitočnejšia stolová píla.'
+  name: '&aRýchla stolová píla'
+  stats:
+  - '&8⇨ &e⚡ &71024 J zásobník'
+  - '&8⇨ &e⚡ &78 J na výrobu'
   type:
   - '&7&oStroj'
+  usage:
+  - '&7Vyrábaj bez potreby vkladať predmety v poradí.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 staroveké podstavce v 1.'
+  name: '&6Naskladaný staroveký podstavec'
   type:
   - '&7&oSurovina'
+  usage:
+  - '&ePravý klik &7ho rozbije na 4 staroveké podstavce.'
