@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7Ilden, der aldrig går ud.'
+  name: '&4Evig ild'
   type:
   - '&7&oRessource'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7Et mere nyttigt ældgammelt alter.'
+  name: '&aHurtigt ældgammelt alter'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7En mere nyttig rustningssmedje.'
+  name: '&aHurtig rustningssmedje'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7En mere nyttig kompostbeholder.'
+  name: '&aHurtig kompostbeholder'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7En mere nyttig kompressor.'
+  name: '&aHurtig kompressor'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_CORE:
+  description:
+  - '&7Kernen i en hurtig maskine.'
+  name: '&bHurtig kerne'
   type:
   - '&7&oRessource'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7Et mere nyttigt vanilla-arbejdsbord.'
+  name: '&aHurtigt arbejdsbord'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7Et mere nyttigt forbedret arbejdsbord.'
+  name: '&aHurtigt forbedret arbejdsbord'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_FURNACE:
+  description:
+  - '&7En mere nyttig vanilla-ovn.'
+  name: '&aHurtig ovn'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7En mere nyttig slibesten.'
+  name: '&aHurtig slibesten'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7En mere nyttig uendelighedsarbejdsbænk.'
+  name: '&aHurtig uendelighedsarbejdsbænk'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J buffer'
+  - '&8⇨ &e⚡ &710000000 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_JUICER:
+  description:
+  - '&7En mere nyttig juicepresser.'
+  name: '&aHurtig juicepresser'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7En mere nyttig magisk arbejdsbænk.'
+  name: '&aHurtig magisk arbejdsbænk'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7En mere nyttig mobdatainfuser.'
+  name: '&aHurtig mobdatainfuser'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J buffer'
+  - '&8⇨ &e⚡ &720000 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7En mere nyttig malmknuser.'
+  name: '&aHurtig malmknuser'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7En mere nyttig malmvasker.'
+  name: '&aHurtig malmvasker'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7En mere nyttig automatisk guldvaskemaskine.'
+  name: '&aHurtig guldvaskemaskine'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7Et mere nyttigt trykkammer.'
+  name: '&aHurtigt trykkammer'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7Et mere nyttigt smelteværk.'
+  name: '&aHurtigt smelteværk'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7En mere nyttig bordsav.'
+  name: '&aHurtig bordsav'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J pr. fremstilling'
   type:
   - '&7&oMaskine'
+  usage:
+  - '&7Fremstil uden at behøve at lægge genstande i rækkefølge.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 ældgamle piedestaller i 1.'
+  name: '&6Stablet ældgammel piedestal'
   type:
   - '&7&oRessource'
+  usage:
+  - '&eHøjreklik &7for at bryde den op i 4 ældgamle piedestaller.'
