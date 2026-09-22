@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7Die vuur wat nooit doodgaan nie.'
+  name: '&4Ewige Vuur'
   type:
   - '&7&oHulpbron'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7''n Nuttiger Antieke Altaar.'
+  name: '&aVinnige Antieke Altaar'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7''n Nuttiger Wapenrustingsmidse.'
+  name: '&aVinnige Wapenrustingsmidse'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7''n Nuttiger Komposmaker.'
+  name: '&aVinnige Komposmaker'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7''n Nuttiger Kompressor.'
+  name: '&aVinnige Kompressor'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_CORE:
+  description:
+  - '&7Die kern van ''n Vinnige Masjien.'
+  name: '&bVinnige Kern'
   type:
   - '&7&oHulpbron'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7''n Nuttiger standaard Vervaardigingstafel.'
+  name: '&aVinnige Vervaardigingstafel'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7''n Nuttiger Verbeterde Vervaardigingstafel.'
+  name: '&aVinnige Verbeterde Vervaardigingstafel'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_FURNACE:
+  description:
+  - '&7''n Nuttiger standaard Oond.'
+  name: '&aVinnige Oond'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7''n Nuttiger Maalklip.'
+  name: '&aVinnige Maalklip'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7''n Nuttiger Oneindigheidswerkbank.'
+  name: '&aVinnige Oneindigheidswerkbank'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J Buffer'
+  - '&8⇨ &e⚡ &710000000 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_JUICER:
+  description:
+  - '&7''n Nuttiger Sapmaker.'
+  name: '&aVinnige Sapmaker'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7''n Nuttiger Towerwerkbank.'
+  name: '&aVinnige Towerwerkbank'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7''n Nuttiger Mob-data-infuseerder.'
+  name: '&aVinnige Mob-data-infuseerder'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J Buffer'
+  - '&8⇨ &e⚡ &720000 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7''n Nuttiger Ertsvergruiser.'
+  name: '&aVinnige Ertsvergruiser'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7''n Nuttiger Ertswasser.'
+  name: '&aVinnige Ertswasser'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7''n Nuttiger Outomatiese Panmasjien.'
+  name: '&aVinnige Panmasjien'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7''n Nuttiger Drukkamer.'
+  name: '&aVinnige Drukkamer'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7''n Nuttiger Smeltery.'
+  name: '&aVinnige Smeltery'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7''n Nuttiger Tafelsaag.'
+  name: '&aVinnige Tafelsaag'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMasjien'
+  usage:
+  - '&7Vervaardig sonder om items in volgorde te sit.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 Antieke Voetstukke in 1.'
+  name: '&6Gestapelde Antieke Voetstuk'
   type:
   - '&7&oHulpbron'
+  usage:
+  - '&eRegsklik &7om dit in 4 Antieke Voetstukke op te breek.'
