@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7O fogo que nunca se apaga.'
+  name: '&4Fogo Eterno'
   type:
   - '&7&oRecurso'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7Um Altar Antigo mais útil.'
+  name: '&aAltar Antigo Rápido'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7Uma Forja de Armaduras mais útil.'
+  name: '&aForja de Armaduras Rápida'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7Um Compostor mais útil.'
+  name: '&aCompostor Rápido'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7Um Compressor mais útil.'
+  name: '&aCompressor Rápido'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_CORE:
+  description:
+  - '&7O núcleo de uma Máquina Rápida.'
+  name: '&bNúcleo Rápido'
   type:
   - '&7&oRecurso'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7Uma Mesa de Trabalho vanilla mais útil.'
+  name: '&aMesa de Trabalho Rápida'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7Uma Mesa de Trabalho Melhorada mais útil.'
+  name: '&aMesa de Trabalho Melhorada Rápida'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_FURNACE:
+  description:
+  - '&7Uma Fornalha vanilla mais útil.'
+  name: '&aFornalha Rápida'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7Uma Mó mais útil.'
+  name: '&aMó Rápida'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7Uma Bancada de Trabalho Infinita mais útil.'
+  name: '&aBancada de Trabalho Infinita Rápida'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J de Reserva'
+  - '&8⇨ &e⚡ &710000000 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_JUICER:
+  description:
+  - '&7Um Espremedor mais útil.'
+  name: '&aEspremedor Rápido'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7Uma Bancada de Trabalho Mágica mais útil.'
+  name: '&aBancada de Trabalho Mágica Rápida'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7Um Infusor de Dados de Mobs mais útil.'
+  name: '&aInfusor de Dados de Mobs Rápido'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J de Reserva'
+  - '&8⇨ &e⚡ &720000 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7Um Triturador de Minério mais útil.'
+  name: '&aTriturador de Minério Rápido'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7Um Lavador de Minério mais útil.'
+  name: '&aLavador de Minério Rápido'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7Uma Máquina de Bateia Automatizada mais útil.'
+  name: '&aMáquina de Bateia Rápida'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7Uma Câmara de Pressão mais útil.'
+  name: '&aCâmara de Pressão Rápida'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7Uma Fundição mais útil.'
+  name: '&aFundição Rápida'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7Uma Serra de Mesa mais útil.'
+  name: '&aSerra de Mesa Rápida'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de Reserva'
+  - '&8⇨ &e⚡ &78 J por fabrico'
   type:
   - '&7&oMáquina'
+  usage:
+  - '&7Fabrica sem precisar de pôr os itens por ordem.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 Pedestais Antigos em 1.'
+  name: '&6Pedestal Antigo Empilhado'
   type:
   - '&7&oRecurso'
+  usage:
+  - '&eClique Direito &7para separar em 4 Pedestais Antigos.'
