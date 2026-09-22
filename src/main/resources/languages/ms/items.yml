@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7Api yang tidak pernah padam.'
+  name: '&4Api Abadi'
   type:
   - '&7&oSumber'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7Altar Purba yang lebih berguna.'
+  name: '&aAltar Purba Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7Penempa Zirah yang lebih berguna.'
+  name: '&aPenempa Zirah Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7Pengkompos yang lebih berguna.'
+  name: '&aPengkompos Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7Pemampat yang lebih berguna.'
+  name: '&aPemampat Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_CORE:
+  description:
+  - '&7Teras bagi sebuah Mesin Pantas.'
+  name: '&bTeras Pantas'
   type:
   - '&7&oSumber'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7Meja Pembuatan asli yang lebih berguna.'
+  name: '&aMeja Pembuatan Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7Meja Pembuatan Dipertingkat yang lebih berguna.'
+  name: '&aMeja Pembuatan Dipertingkat Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_FURNACE:
+  description:
+  - '&7Relau asli yang lebih berguna.'
+  name: '&aRelau Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7Batu Pengisar yang lebih berguna.'
+  name: '&aBatu Pengisar Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7Meja Kerja Infiniti yang lebih berguna.'
+  name: '&aMeja Kerja Infiniti Pantas'
+  stats:
+  - '&8⇨ &e⚡ &7Penimbal 100000000 J'
+  - '&8⇨ &e⚡ &710000000 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_JUICER:
+  description:
+  - '&7Pemerah Jus yang lebih berguna.'
+  name: '&aPemerah Jus Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7Meja Kerja Sihir yang lebih berguna.'
+  name: '&aMeja Kerja Sihir Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7Penerap Data Mob yang lebih berguna.'
+  name: '&aPenerap Data Mob Pantas'
+  stats:
+  - '&8⇨ &e⚡ &7Penimbal 200000 J'
+  - '&8⇨ &e⚡ &720000 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7Penghancur Bijih yang lebih berguna.'
+  name: '&aPenghancur Bijih Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7Pencuci Bijih yang lebih berguna.'
+  name: '&aPencuci Bijih Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7Mesin Pendulang Automatik yang lebih berguna.'
+  name: '&aMesin Pendulang Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7Ruang Tekanan yang lebih berguna.'
+  name: '&aRuang Tekanan Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7Peleburan yang lebih berguna.'
+  name: '&aPeleburan Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7Gergaji Meja yang lebih berguna.'
+  name: '&aGergaji Meja Pantas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Penimbal'
+  - '&8⇨ &e⚡ &78 J setiap buatan'
   type:
   - '&7&oMesin'
+  usage:
+  - '&7Buat tanpa perlu meletakkan item mengikut susunan.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 Alas Purba dalam 1.'
+  name: '&6Alas Purba Bertindan'
   type:
   - '&7&oSumber'
+  usage:
+  - '&eKlik Kanan &7untuk memecahkannya kepada 4 Alas Purba.'
