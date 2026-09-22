@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7Elden som aldrig slocknar.'
+  name: '&4Evig eld'
   type:
   - '&7&oRåmaterial'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7Ett mer användbart uråldrigt altare.'
+  name: '&aSnabbt uråldrigt altare'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7En mer användbar rustningssmedja.'
+  name: '&aSnabb rustningssmedja'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7En mer användbar kompost.'
+  name: '&aSnabb kompost'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7En mer användbar kompressor.'
+  name: '&aSnabb kompressor'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_CORE:
+  description:
+  - '&7Kärnan i en snabb maskin.'
+  name: '&bSnabb kärna'
   type:
   - '&7&oRåmaterial'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7En mer användbar vanilla-arbetsbänk.'
+  name: '&aSnabb arbetsbänk'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7En mer användbar förbättrad arbetsbänk.'
+  name: '&aSnabb förbättrad arbetsbänk'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_FURNACE:
+  description:
+  - '&7En mer användbar vanilla-ugn.'
+  name: '&aSnabb ugn'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7En mer användbar slipsten.'
+  name: '&aSnabb slipsten'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7En mer användbar oändlighetsarbetsbänk.'
+  name: '&aSnabb oändlighetsarbetsbänk'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J buffert'
+  - '&8⇨ &e⚡ &710000000 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_JUICER:
+  description:
+  - '&7En mer användbar juicepress.'
+  name: '&aSnabb juicepress'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7En mer användbar magisk arbetsbänk.'
+  name: '&aSnabb magisk arbetsbänk'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7En mer användbar mobdatainfuserare.'
+  name: '&aSnabb mobdatainfuserare'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J buffert'
+  - '&8⇨ &e⚡ &720000 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7En mer användbar malmkross.'
+  name: '&aSnabb malmkross'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7En mer användbar malmtvätt.'
+  name: '&aSnabb malmtvätt'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7En mer användbar automatisk vaskmaskin.'
+  name: '&aSnabb vaskmaskin'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7En mer användbar tryckkammare.'
+  name: '&aSnabb tryckkammare'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7Ett mer användbart smältverk.'
+  name: '&aSnabbt smältverk'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7En mer användbar bordssåg.'
+  name: '&aSnabb bordssåg'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffert'
+  - '&8⇨ &e⚡ &78 J per tillverkning'
   type:
   - '&7&oMaskin'
+  usage:
+  - '&7Tillverka utan att behöva lägga föremålen i ordning.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 uråldriga piedestaler i 1.'
+  name: '&6Staplad uråldrig piedestal'
   type:
   - '&7&oRåmaterial'
+  usage:
+  - '&eHögerklicka &7för att dela upp den i 4 uråldriga piedestaler.'
