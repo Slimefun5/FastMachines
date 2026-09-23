@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7永不熄灭的火焰。'
+  name: '&4永恒之火'
   type:
   - '&7&o资源'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7更实用的远古祭坛。'
+  name: '&a快速远古祭坛'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7更实用的盔甲锻造台。'
+  name: '&a快速盔甲锻造台'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7更实用的堆肥机。'
+  name: '&a快速堆肥机'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7更实用的压缩机。'
+  name: '&a快速压缩机'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_CORE:
+  description:
+  - '&7快速机器的核心。'
+  name: '&b快速核心'
   type:
   - '&7&o资源'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7更实用的原版工作台。'
+  name: '&a快速工作台'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7更实用的强化工作台。'
+  name: '&a快速强化工作台'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_FURNACE:
+  description:
+  - '&7更实用的原版熔炉。'
+  name: '&a快速熔炉'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7更实用的研磨机。'
+  name: '&a快速研磨机'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7更实用的无限工作台。'
+  name: '&a快速无限工作台'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J 缓存'
+  - '&8⇨ &e⚡ &710000000 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_JUICER:
+  description:
+  - '&7更实用的榨汁机。'
+  name: '&a快速榨汁机'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7更实用的魔法工作台。'
+  name: '&a快速魔法工作台'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7更实用的生物数据注入器。'
+  name: '&a快速生物数据注入器'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J 缓存'
+  - '&8⇨ &e⚡ &720000 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7更实用的矿石粉碎机。'
+  name: '&a快速矿石粉碎机'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7更实用的洗矿机。'
+  name: '&a快速洗矿机'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7更实用的自动淘洗机。'
+  name: '&a快速淘洗机'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7更实用的高压室。'
+  name: '&a快速高压室'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_SMELTERY:
+  description:
+  - '&7更实用的冶炼厂。'
+  name: '&a快速冶炼厂'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7更实用的台锯。'
+  name: '&a快速台锯'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 缓存'
+  - '&8⇨ &e⚡ &78 J/次合成'
   type:
   - '&7&o机器'
+  usage:
+  - '&7合成无需按顺序放入物品。'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 个远古基座合而为 1。'
+  name: '&6叠放远古基座'
   type:
   - '&7&o资源'
+  usage:
+  - '&e右键点击 &7可拆分为 4 个远古基座。'
