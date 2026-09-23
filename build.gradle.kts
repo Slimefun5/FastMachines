@@ -7,7 +7,7 @@ plugins {
 group = "net.guizhanss"
 description = "FastMachines is a Slimefun addon that adds more machines that bulk craft items with all shapeless recipes."
 
-apply(from = "https://raw.githubusercontent.com/Slimefun5/gradle/stable/slimefun-addon.gradle")
+apply(from = "https://raw.githubusercontent.com/Slimefun5/gradle/main/slimefun-addon.gradle")
 
 dependencies {
     implementation("org.bstats:bstats-bukkit:3.1.0")
