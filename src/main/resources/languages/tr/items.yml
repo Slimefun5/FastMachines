@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7Hiç sönmeyen ateş.'
+  name: '&4Ebedi Ateş'
   type:
   - '&7&oKaynak'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7Daha kullanışlı bir Kadim Sunak.'
+  name: '&aHızlı Kadim Sunak'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7Daha kullanışlı bir Zırh Ocağı.'
+  name: '&aHızlı Zırh Ocağı'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7Daha kullanışlı bir Kompostlayıcı.'
+  name: '&aHızlı Kompostlayıcı'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7Daha kullanışlı bir Sıkıştırıcı.'
+  name: '&aHızlı Sıkıştırıcı'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_CORE:
+  description:
+  - '&7Hızlı Makinenin çekirdeği.'
+  name: '&bHızlı Çekirdek'
   type:
   - '&7&oKaynak'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7Daha kullanışlı bir vanilla Çalışma Tezgahı.'
+  name: '&aHızlı Çalışma Tezgahı'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7Daha kullanışlı bir Geliştirilmiş Çalışma Tezgahı.'
+  name: '&aHızlı Geliştirilmiş Çalışma Tezgahı'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_FURNACE:
+  description:
+  - '&7Daha kullanışlı bir vanilla Fırın.'
+  name: '&aHızlı Fırın'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7Daha kullanışlı bir Öğütme Taşı.'
+  name: '&aHızlı Öğütme Taşı'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7Daha kullanışlı bir Sonsuzluk Tezgahı.'
+  name: '&aHızlı Sonsuzluk Tezgahı'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 10000000 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_JUICER:
+  description:
+  - '&7Daha kullanışlı bir Meyve Sıkacağı.'
+  name: '&aHızlı Meyve Sıkacağı'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7Daha kullanışlı bir Sihir Tezgahı.'
+  name: '&aHızlı Sihir Tezgahı'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7Daha kullanışlı bir Yaratık Verisi Aşılayıcı.'
+  name: '&aHızlı Yaratık Verisi Aşılayıcı'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 20000 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7Daha kullanışlı bir Cevher Kırıcı.'
+  name: '&aHızlı Cevher Kırıcı'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7Daha kullanışlı bir Cevher Yıkayıcı.'
+  name: '&aHızlı Cevher Yıkayıcı'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7Daha kullanışlı bir Otomatik Eleme Makinesi.'
+  name: '&aHızlı Eleme Makinesi'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7Daha kullanışlı bir Basınç Odası.'
+  name: '&aHızlı Basınç Odası'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7Daha kullanışlı bir Eritme Ocağı.'
+  name: '&aHızlı Eritme Ocağı'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7Daha kullanışlı bir Tezgah Testeresi.'
+  name: '&aHızlı Tezgah Testeresi'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &7Üretim başına 8 J'
   type:
   - '&7&oMakine'
+  usage:
+  - '&7Eşyaları sıraya koymaya gerek kalmadan üret.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&71 eşyada 4 Kadim Kaide.'
+  name: '&6İstiflenmiş Kadim Kaide'
   type:
   - '&7&oKaynak'
+  usage:
+  - '&eSağ Tık &7ile 4 Kadim Kaideye ayrılır.'
