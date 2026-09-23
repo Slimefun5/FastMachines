@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7Il fuoco che non si spegne mai.'
+  name: '&4Fuoco Eterno'
   type:
   - '&7&oRisorsa'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7Un Altare Antico più utile.'
+  name: '&aAltare Antico Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7Una Forgia per Armature più utile.'
+  name: '&aForgia per Armature Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7Una Compostiera più utile.'
+  name: '&aCompostiera Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7Un Compressore più utile.'
+  name: '&aCompressore Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_CORE:
+  description:
+  - '&7Il nucleo di una Macchina Veloce.'
+  name: '&bNucleo Veloce'
   type:
   - '&7&oRisorsa'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7Un Banco da Lavoro vanilla più utile.'
+  name: '&aBanco da Lavoro Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7Un Banco da Lavoro Potenziato più utile.'
+  name: '&aBanco da Lavoro Potenziato Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_FURNACE:
+  description:
+  - '&7Una Fornace vanilla più utile.'
+  name: '&aFornace Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7Una Macina più utile.'
+  name: '&aMacina Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7Un Banco da Lavoro Infinito più utile.'
+  name: '&aBanco da Lavoro Infinito Veloce'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J Buffer'
+  - '&8⇨ &e⚡ &710000000 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_JUICER:
+  description:
+  - '&7Uno Spremitore più utile.'
+  name: '&aSpremitore Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7Un Banco da Lavoro Magico più utile.'
+  name: '&aBanco da Lavoro Magico Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7Un Infusore di Dati Mob più utile.'
+  name: '&aInfusore di Dati Mob Veloce'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J Buffer'
+  - '&8⇨ &e⚡ &720000 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7Un Frantumatore di Minerali più utile.'
+  name: '&aFrantumatore di Minerali Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7Un Lavatore di Minerali più utile.'
+  name: '&aLavatore di Minerali Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7Una Macchina Setacciatrice Automatica più utile.'
+  name: '&aMacchina Setacciatrice Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7Una Camera a Pressione più utile.'
+  name: '&aCamera a Pressione Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7Una Fucina più utile.'
+  name: '&aFucina Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7Una Sega da Banco più utile.'
+  name: '&aSega da Banco Veloce'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Buffer'
+  - '&8⇨ &e⚡ &78 J per fabbricazione'
   type:
   - '&7&oMacchina'
+  usage:
+  - '&7Fabbrica senza dover mettere gli oggetti in ordine.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 Piedistalli Antichi in 1.'
+  name: '&6Piedistallo Antico Impilato'
   type:
   - '&7&oRisorsa'
+  usage:
+  - '&eClic Destro &7per romperlo in 4 Piedistalli Antichi.'
