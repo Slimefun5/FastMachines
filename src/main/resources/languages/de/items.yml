@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7Das Feuer, das nie erlischt.'
+  name: '&4Ewiges Feuer'
   type:
   - '&7&oRohstoff'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7Ein nützlicherer Antiker Altar.'
+  name: '&aSchneller Antiker Altar'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7Eine nützlichere Rüstungsschmiede.'
+  name: '&aSchnelle Rüstungsschmiede'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7Ein nützlicherer Komposter.'
+  name: '&aSchneller Komposter'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7Ein nützlicherer Kompressor.'
+  name: '&aSchneller Kompressor'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_CORE:
+  description:
+  - '&7Der Kern einer Schnellen Maschine.'
+  name: '&bSchneller Kern'
   type:
   - '&7&oRohstoff'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7Eine nützlichere Vanilla-Werkbank.'
+  name: '&aSchnelle Werkbank'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7Eine nützlichere Verbesserte Werkbank.'
+  name: '&aSchnelle Verbesserte Werkbank'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_FURNACE:
+  description:
+  - '&7Ein nützlicherer Vanilla-Ofen.'
+  name: '&aSchneller Ofen'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7Ein nützlicherer Mahlstein.'
+  name: '&aSchneller Mahlstein'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7Eine nützlichere Unendlichkeitswerkbank.'
+  name: '&aSchnelle Unendlichkeitswerkbank'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J Puffer'
+  - '&8⇨ &e⚡ &710000000 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_JUICER:
+  description:
+  - '&7Ein nützlicherer Entsafter.'
+  name: '&aSchneller Entsafter'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7Eine nützlichere Magische Werkbank.'
+  name: '&aSchnelle Magische Werkbank'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7Ein nützlicherer Mob-Daten-Infusor.'
+  name: '&aSchneller Mob-Daten-Infusor'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J Puffer'
+  - '&8⇨ &e⚡ &720000 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7Ein nützlicherer Erzbrecher.'
+  name: '&aSchneller Erzbrecher'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7Eine nützlichere Erzwäsche.'
+  name: '&aSchnelle Erzwäsche'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7Eine nützlichere Automatische Siebmaschine.'
+  name: '&aSchnelle Siebmaschine'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7Eine nützlichere Druckkammer.'
+  name: '&aSchnelle Druckkammer'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7Eine nützlichere Schmelzerei.'
+  name: '&aSchnelle Schmelzerei'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7Eine nützlichere Tischsäge.'
+  name: '&aSchnelle Tischsäge'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J pro Herstellung'
   type:
   - '&7&oMaschine'
+  usage:
+  - '&7Herstellen, ohne die Gegenstände in Reihenfolge legen zu müssen.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 Antike Podeste in 1.'
+  name: '&6Gestapeltes Antikes Podest'
   type:
   - '&7&oRohstoff'
+  usage:
+  - '&eRechtsklick &7teilt es in 4 Antike Podeste.'
