@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7Het vuur dat nooit uitgaat.'
+  name: '&4Eeuwig Vuur'
   type:
   - '&7&oGrondstof'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7Een nuttiger Oeroud Altaar.'
+  name: '&aSnel Oeroud Altaar'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7Een nuttigere Harnassmederij.'
+  name: '&aSnelle Harnassmederij'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7Een nuttigere Composteerder.'
+  name: '&aSnelle Composteerder'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7Een nuttigere Samenperser.'
+  name: '&aSnelle Samenperser'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_CORE:
+  description:
+  - '&7De kern van een Snelle Machine.'
+  name: '&bSnelle Kern'
   type:
   - '&7&oGrondstof'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7Een nuttigere vanilla Werkbank.'
+  name: '&aSnelle Werkbank'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7Een nuttigere Verbeterde Werkbank.'
+  name: '&aSnelle Verbeterde Werkbank'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_FURNACE:
+  description:
+  - '&7Een nuttigere vanilla Oven.'
+  name: '&aSnelle Oven'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7Een nuttigere Slijpsteen.'
+  name: '&aSnelle Slijpsteen'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7Een nuttigere Oneindigheidswerkbank.'
+  name: '&aSnelle Oneindigheidswerkbank'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J Buffer'
+  - '&8⇨ &e⚡ &710000000 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_JUICER:
+  description:
+  - '&7Een nuttigere Sapmaker.'
+  name: '&aSnelle Sapmaker'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7Een nuttigere Magische Werkbank.'
+  name: '&aSnelle Magische Werkbank'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7Een nuttigere Mobdata-infuser.'
+  name: '&aSnelle Mobdata-infuser'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J Buffer'
+  - '&8⇨ &e⚡ &720000 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7Een nuttigere Ertsvergruizer.'
+  name: '&aSnelle Ertsvergruizer'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7Een nuttigere Ertswasser.'
+  name: '&aSnelle Ertswasser'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7Een nuttigere Geautomatiseerde Panmachine.'
+  name: '&aSnelle Panmachine'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7Een nuttigere Drukkamer.'
+  name: '&aSnelle Drukkamer'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7Een nuttigere Smelterij.'
+  name: '&aSnelle Smelterij'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7Een nuttigere Tafelzaag.'
+  name: '&aSnelle Tafelzaag'
+  stats:
+  - '&8⇨ &e⚡ &71024 J buffer'
+  - '&8⇨ &e⚡ &78 J per vervaardiging'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Vervaardig zonder de items in volgorde te hoeven plaatsen.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 Oeroude Sokkels in 1.'
+  name: '&6Gestapelde Oeroude Sokkel'
   type:
   - '&7&oGrondstof'
+  usage:
+  - '&eRechtsklik &7om te breken in 4 Oeroude Sokkels.'
