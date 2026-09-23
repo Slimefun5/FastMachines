@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7Le feu qui ne s''éteint jamais.'
+  name: '&4Feu éternel'
   type:
   - '&7&oRessource'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7Un Autel ancien plus utile.'
+  name: '&aAutel ancien rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7Une Forge d''armure plus utile.'
+  name: '&aForge d''armure rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7Un Composteur plus utile.'
+  name: '&aComposteur rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7Un Compresseur plus utile.'
+  name: '&aCompresseur rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_CORE:
+  description:
+  - '&7Le noyau d''une Machine rapide.'
+  name: '&bNoyau rapide'
   type:
   - '&7&oRessource'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7Une Table de fabrication vanilla plus utile.'
+  name: '&aTable de fabrication rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7Une Table de fabrication améliorée plus utile.'
+  name: '&aTable de fabrication améliorée rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_FURNACE:
+  description:
+  - '&7Un Fourneau vanilla plus utile.'
+  name: '&aFourneau rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7Une Meule plus utile.'
+  name: '&aMeule rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7Un Établi infini plus utile.'
+  name: '&aÉtabli infini rapide'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J de tampon'
+  - '&8⇨ &e⚡ &710000000 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_JUICER:
+  description:
+  - '&7Un Extracteur de jus plus utile.'
+  name: '&aExtracteur de jus rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7Un Établi magique plus utile.'
+  name: '&aÉtabli magique rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7Un Infuseur de données de créature plus utile.'
+  name: '&aInfuseur de données de créature rapide'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J de tampon'
+  - '&8⇨ &e⚡ &720000 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7Un Broyeur de minerai plus utile.'
+  name: '&aBroyeur de minerai rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7Un Laveur de minerai plus utile.'
+  name: '&aLaveur de minerai rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7Une Machine à tamiser automatisée plus utile.'
+  name: '&aMachine à tamiser rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7Une Chambre de pression plus utile.'
+  name: '&aChambre de pression rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7Une Fonderie plus utile.'
+  name: '&aFonderie rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7Une Scie à table plus utile.'
+  name: '&aScie à table rapide'
+  stats:
+  - '&8⇨ &e⚡ &71024 J de tampon'
+  - '&8⇨ &e⚡ &78 J par fabrication'
   type:
   - '&7&oMachine'
+  usage:
+  - '&7Fabriquer sans avoir besoin de mettre les objets dans l''ordre.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 Piédestaux anciens en 1.'
+  name: '&6Piédestal ancien empilé'
   type:
   - '&7&oRessource'
+  usage:
+  - '&eClic droit &7pour le casser en 4 Piédestaux anciens.'
