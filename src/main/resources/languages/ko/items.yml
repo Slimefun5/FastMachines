@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7결코 꺼지지 않는 불입니다.'
+  name: '&4영원한 불'
   type:
   - '&7&o자원'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7더 유용한 고대 제단입니다.'
+  name: '&a고속 고대 제단'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7더 유용한 방어구 제작소입니다.'
+  name: '&a고속 방어구 제작소'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7더 유용한 퇴비기입니다.'
+  name: '&a고속 퇴비기'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7더 유용한 압축기입니다.'
+  name: '&a고속 압축기'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_CORE:
+  description:
+  - '&7고속 기계의 코어입니다.'
+  name: '&b고속 코어'
   type:
   - '&7&o자원'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7더 유용한 바닐라 제작대입니다.'
+  name: '&a고속 제작대'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7더 유용한 개량 제작대입니다.'
+  name: '&a고속 개량 제작대'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_FURNACE:
+  description:
+  - '&7더 유용한 바닐라 화로입니다.'
+  name: '&a고속 화로'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7더 유용한 연마기입니다.'
+  name: '&a고속 연마기'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7더 유용한 무한 작업대입니다.'
+  name: '&a고속 무한 작업대'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 10000000 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_JUICER:
+  description:
+  - '&7더 유용한 착즙기입니다.'
+  name: '&a고속 착즙기'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7더 유용한 마법 작업대입니다.'
+  name: '&a고속 마법 작업대'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7더 유용한 몹 데이터 주입기입니다.'
+  name: '&a고속 몹 데이터 주입기'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 20000 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7더 유용한 광석 분쇄기입니다.'
+  name: '&a고속 광석 분쇄기'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7더 유용한 광석 세척기입니다.'
+  name: '&a고속 광석 세척기'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7더 유용한 자동 사금 채취기입니다.'
+  name: '&a고속 사금 채취기'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7더 유용한 압력 챔버입니다.'
+  name: '&a고속 압력 챔버'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7더 유용한 제련소입니다.'
+  name: '&a고속 제련소'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7더 유용한 톱질대입니다.'
+  name: '&a고속 톱질대'
+  stats:
+  - '&8⇨ &e⚡ &71024 J 버퍼'
+  - '&8⇨ &e⚡ &7제작당 8 J'
   type:
   - '&7&o기계'
+  usage:
+  - '&7아이템을 순서대로 넣을 필요 없이 제작합니다.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&7고대 받침대 4개를 1개로 합친 것.'
+  name: '&6겹쌓인 고대 받침대'
   type:
   - '&7&o자원'
+  usage:
+  - '&e우클릭 &7하면 고대 받침대 4개로 분해됩니다.'
