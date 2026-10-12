@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7Focul care nu se stinge niciodată.'
+  name: '&4Foc Etern'
   type:
   - '&7&oResursă'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7Un Altar Antic mai util.'
+  name: '&aAltar Antic rapid'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7O Forjă de Armuri mai utilă.'
+  name: '&aForjă de Armuri rapidă'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7Un Compostor mai util.'
+  name: '&aCompostor rapid'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7Un Compresor mai util.'
+  name: '&aCompresor rapid'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_CORE:
+  description:
+  - '&7Nucleul unei Mașini Rapide.'
+  name: '&bNucleu Rapid'
   type:
   - '&7&oResursă'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7O Masă de lucru vanilla mai utilă.'
+  name: '&aMasă de lucru rapidă'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7O Masă de lucru îmbunătățită mai utilă.'
+  name: '&aMasă de lucru îmbunătățită rapidă'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_FURNACE:
+  description:
+  - '&7Un Furnal vanilla mai util.'
+  name: '&aFurnal rapid'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7O Piatră de măcinat mai utilă.'
+  name: '&aPiatră de măcinat rapidă'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7Un Banc de lucru infinit mai util.'
+  name: '&aBanc de lucru infinit rapid'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J Tampon'
+  - '&8⇨ &e⚡ &710000000 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_JUICER:
+  description:
+  - '&7Un Storcător mai util.'
+  name: '&aStorcător rapid'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7Un Banc de lucru magic mai util.'
+  name: '&aBanc de lucru magic rapid'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7Un Infuzor de Date de Mob mai util.'
+  name: '&aInfuzor de Date de Mob rapid'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J Tampon'
+  - '&8⇨ &e⚡ &720000 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7Un Zdrobitor de Minereuri mai util.'
+  name: '&aZdrobitor de Minereuri rapid'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7Un Spălător de Minereuri mai util.'
+  name: '&aSpălător de Minereuri rapid'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7O Mașină de Cernut Automatizată mai utilă.'
+  name: '&aMașină de Cernut rapidă'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7O Cameră de Presiune mai utilă.'
+  name: '&aCameră de Presiune rapidă'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7O Topitorie mai utilă.'
+  name: '&aTopitorie rapidă'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7Un Ferăstrău de masă mai util.'
+  name: '&aFerăstrău de masă rapid'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Tampon'
+  - '&8⇨ &e⚡ &78 J pe fabricare'
   type:
   - '&7&oMașină'
+  usage:
+  - '&7Fabrică fără a avea nevoie să pui obiectele în ordine.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 Piedestale Antice în 1.'
+  name: '&6Piedestal Antic Stivuit'
   type:
   - '&7&oResursă'
+  usage:
+  - '&eClic dreapta &7pentru a-l sparge în 4 Piedestale Antice.'
