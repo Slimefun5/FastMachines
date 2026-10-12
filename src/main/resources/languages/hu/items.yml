@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7A tűz, amely soha nem alszik ki.'
+  name: '&4Örök Tűz'
   type:
   - '&7&oNyersanyag'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7Egy hasznosabb Ősi Oltár.'
+  name: '&aGyors Ősi Oltár'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7Egy hasznosabb Páncélkohó.'
+  name: '&aGyors Páncélkohó'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7Egy hasznosabb Komposztáló.'
+  name: '&aGyors Komposztáló'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7Egy hasznosabb Tömörítő.'
+  name: '&aGyors Tömörítő'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_CORE:
+  description:
+  - '&7Egy Gyors Gép magja.'
+  name: '&bGyors Mag'
   type:
   - '&7&oNyersanyag'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7Egy hasznosabb vanilla Barkácsasztal.'
+  name: '&aGyors Barkácsasztal'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7Egy hasznosabb Fejlesztett Barkácsasztal.'
+  name: '&aGyors Fejlesztett Barkácsasztal'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_FURNACE:
+  description:
+  - '&7Egy hasznosabb vanilla Olvasztókemence.'
+  name: '&aGyors Olvasztókemence'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7Egy hasznosabb Darálókő.'
+  name: '&aGyors Darálókő'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7Egy hasznosabb Végtelen Munkaasztal.'
+  name: '&aGyors Végtelen Munkaasztal'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J Puffer'
+  - '&8⇨ &e⚡ &710000000 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_JUICER:
+  description:
+  - '&7Egy hasznosabb Lékészítő.'
+  name: '&aGyors Lékészítő'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7Egy hasznosabb Mágikus Munkaasztal.'
+  name: '&aGyors Mágikus Munkaasztal'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7Egy hasznosabb Mob Adatbetöltő.'
+  name: '&aGyors Mob Adatbetöltő'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J Puffer'
+  - '&8⇨ &e⚡ &720000 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7Egy hasznosabb Érczúzó.'
+  name: '&aGyors Érczúzó'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7Egy hasznosabb Ércmosó.'
+  name: '&aGyors Ércmosó'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7Egy hasznosabb Automatizált Aranymosó Gép.'
+  name: '&aGyors Aranymosó Gép'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7Egy hasznosabb Nyomáskamra.'
+  name: '&aGyors Nyomáskamra'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7Egy hasznosabb Olvasztómű.'
+  name: '&aGyors Olvasztómű'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7Egy hasznosabb Asztali Fűrész.'
+  name: '&aGyors Asztali Fűrész'
+  stats:
+  - '&8⇨ &e⚡ &71024 J Puffer'
+  - '&8⇨ &e⚡ &78 J barkácsolásonként'
   type:
   - '&7&oGép'
+  usage:
+  - '&7Barkácsolás anélkül, hogy sorrendbe kellene tenni a tárgyakat.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 Ősi Talapzat 1-ben.'
+  name: '&6Halmozott Ősi Talapzat'
   type:
   - '&7&oNyersanyag'
+  usage:
+  - '&eJobb Klikk &7a 4 Ősi Talapzatra töréshez.'
