@@ -1,63 +1,218 @@
 FM_ETERNAL_FIRE:
+  description:
+  - '&7Tuli joka ei koskaan sammu.'
+  name: '&4Ikuinen tuli'
   type:
   - '&7&oResurssi'
 FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7Hyödyllisempi muinainen alttari.'
+  name: '&aNopea muinainen alttari'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7Hyödyllisempi haarniskapaja.'
+  name: '&aNopea haarniskapaja'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_COMPOSTER:
+  description:
+  - '&7Hyödyllisempi kompostori.'
+  name: '&aNopea kompostori'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_COMPRESSOR:
+  description:
+  - '&7Hyödyllisempi puristin.'
+  name: '&aNopea puristin'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_CORE:
+  description:
+  - '&7Nopean koneen ydin.'
+  name: '&bNopea ydin'
   type:
   - '&7&oResurssi'
 FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7Hyödyllisempi Vanilla-työpöytä.'
+  name: '&aNopea työpöytä'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7Hyödyllisempi parannettu työpöytä.'
+  name: '&aNopea parannettu työpöytä'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_FURNACE:
+  description:
+  - '&7Hyödyllisempi Vanilla-uuni.'
+  name: '&aNopea uuni'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_GRIND_STONE:
+  description:
+  - '&7Hyödyllisempi hiomakivi.'
+  name: '&aNopea hiomakivi'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7Hyödyllisempi ääretön verstas.'
+  name: '&aNopea ääretön verstas'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J puskuri'
+  - '&8⇨ &e⚡ &710000000 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_JUICER:
+  description:
+  - '&7Hyödyllisempi mehustin.'
+  name: '&aNopea mehustin'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7Hyödyllisempi taikaverstas.'
+  name: '&aNopea taikaverstas'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7Hyödyllisempi mobidatan syöttäjä.'
+  name: '&aNopea mobidatan syöttäjä'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J puskuri'
+  - '&8⇨ &e⚡ &720000 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7Hyödyllisempi malminmurskain.'
+  name: '&aNopea malminmurskain'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_ORE_WASHER:
+  description:
+  - '&7Hyödyllisempi malminpesuri.'
+  name: '&aNopea malminpesuri'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7Hyödyllisempi automaattinen huuhdontakone.'
+  name: '&aNopea huuhdontakone'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7Hyödyllisempi painekammio.'
+  name: '&aNopea painekammio'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_SMELTERY:
+  description:
+  - '&7Hyödyllisempi sulatto.'
+  name: '&aNopea sulatto'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_FAST_TABLE_SAW:
+  description:
+  - '&7Hyödyllisempi pöytäsaha.'
+  name: '&aNopea pöytäsaha'
+  stats:
+  - '&8⇨ &e⚡ &71024 J puskuri'
+  - '&8⇨ &e⚡ &78 J valmistusta kohden'
   type:
   - '&7&oKone'
+  usage:
+  - '&7Valmista tarvitsematta laittaa esineet järjestykseen.'
 FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74 muinaista jalustaa 1:ssä.'
+  name: '&6Pinottu muinainen jalusta'
   type:
   - '&7&oResurssi'
+  usage:
+  - '&eNapsauta oikealla &7rikkoaksesi sen 4 muinaiseksi jalustaksi.'
