@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Nepakanka energijos!"
+  not-enough-materials: "Nepakanka medžiagų!"
+  profile-not-loaded: "Tavo profilis neįkeltas, pabandyk vėliau."
+  no-research: "Dar neatradai vieno ar kelių šio recepto rezultatų."

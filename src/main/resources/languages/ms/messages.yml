@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Tenaga tidak mencukupi!"
+  not-enough-materials: "Bahan tidak mencukupi!"
+  profile-not-loaded: "Profil anda belum dimuatkan, cuba lagi nanti."
+  no-research: "Anda belum membuka satu atau lebih barang keluaran resipi ini."

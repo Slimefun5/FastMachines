@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "انرژی کافی نیست!"
+  not-enough-materials: "مواد کافی نیست!"
+  profile-not-loaded: "نمایهٔ تو بارگذاری نشده است، بعداً دوباره تلاش کن."
+  no-research: "هنوز یک یا چند چیز خروجی این دستور ساخت را باز نکرده‌ای."

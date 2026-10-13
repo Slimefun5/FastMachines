@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Nincs elég energia!"
+  not-enough-materials: "Nincs elég anyag!"
+  profile-not-loaded: "A profilod nincs betöltve, próbáld meg később."
+  no-research: "Még nem oldottad fel ennek a receptnek egy vagy több kimeneti tárgyát."

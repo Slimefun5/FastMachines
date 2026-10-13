@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Yeterli enerji yok!"
+  not-enough-materials: "Yeterli malzeme yok!"
+  profile-not-loaded: "Profilin yüklenmedi, daha sonra yeniden dene."
+  no-research: "Bu tarifin çıktı eşyalarından birini veya birkaçını henüz açmadın."

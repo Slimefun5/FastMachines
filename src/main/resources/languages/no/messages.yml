@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Ikke nok energi!"
+  not-enough-materials: "Ikke nok materialer!"
+  profile-not-loaded: "Profilen din er ikke lastet inn, prøv igjen senere."
+  no-research: "Du har ennå ikke låst opp én eller flere av oppskriftens utgangsgjenstander."

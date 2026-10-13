@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "能量不足！"
+  not-enough-materials: "材料不足！"
+  profile-not-loaded: "你的檔案尚未載入，請稍後再試。"
+  no-research: "你還沒有解鎖這個配方的一個或多個產出物品。"

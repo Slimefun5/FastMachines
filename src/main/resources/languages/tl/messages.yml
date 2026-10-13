@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Kulang ang enerhiya!"
+  not-enough-materials: "Kulang ang materyales!"
+  profile-not-loaded: "Hindi pa nakakarga ang profile mo, subukan mo muli mamaya."
+  no-research: "Hindi mo pa nabubuksan ang isa o higit pang bagay na kalalabasan ng resipeng ito."

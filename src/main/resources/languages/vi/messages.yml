@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Không đủ năng lượng!"
+  not-enough-materials: "Không đủ vật liệu!"
+  profile-not-loaded: "Hồ sơ của bạn chưa được tải, hãy thử lại sau."
+  no-research: "Bạn chưa mở khóa một hoặc nhiều vật phẩm đầu ra của công thức này."

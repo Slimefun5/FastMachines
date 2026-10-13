@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Niet genoeg energie!"
+  not-enough-materials: "Niet genoeg materialen!"
+  profile-not-loaded: "Je profiel is niet geladen, probeer het later opnieuw."
+  no-research: "Je hebt een of meer uitvoeritems van dit recept nog niet vrijgespeeld."

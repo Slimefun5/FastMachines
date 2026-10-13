@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Energie insuficientă!"
+  not-enough-materials: "Materiale insuficiente!"
+  profile-not-loaded: "Profilul tău nu este încărcat, încearcă din nou mai târziu."
+  no-research: "Nu ai deblocat încă unul sau mai multe obiecte rezultate din această rețetă."

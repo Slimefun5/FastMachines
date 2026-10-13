@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Ikke nok energi!"
+  not-enough-materials: "Ikke nok materialer!"
+  profile-not-loaded: "Din profil er ikke indlæst, prøv igen senere."
+  no-research: "Du har endnu ikke låst en eller flere af opskriftens udgangsgenstande op."

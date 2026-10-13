@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Inte tillräckligt med energi!"
+  not-enough-materials: "Inte tillräckligt med material!"
+  profile-not-loaded: "Din profil är inte inläst, försök igen senare."
+  no-research: "Du har ännu inte låst upp en eller flera av receptets utgångssaker."

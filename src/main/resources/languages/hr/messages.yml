@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Nedovoljno energije!"
+  not-enough-materials: "Nedovoljno materijala!"
+  profile-not-loaded: "Tvoj profil nije učitan, pokušaj kasnije."
+  no-research: "Još nisi otključao jedan ili više izlaznih predmeta ovog recepta."

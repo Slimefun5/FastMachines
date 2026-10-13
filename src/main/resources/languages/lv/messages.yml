@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Nepietiek enerģijas!"
+  not-enough-materials: "Nepietiek materiālu!"
+  profile-not-loaded: "Tavs profils nav ielādēts, mēģini vēlāk vēlreiz."
+  no-research: "Tu vēl neesi atbloķējis vienu vai vairākus šīs receptes izejas priekšmetus."

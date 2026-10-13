@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Ei tarpeeksi energiaa!"
+  not-enough-materials: "Ei tarpeeksi materiaaleja!"
+  profile-not-loaded: "Profiiliasi ei ole ladattu, yritä myöhemmin uudelleen."
+  no-research: "Et ole vielä avannut yhtä tai useampaa tämän ohjeen tuotetta."

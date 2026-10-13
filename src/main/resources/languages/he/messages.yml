@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "אין מספיק אנרגיה!"
+  not-enough-materials: "אין מספיק חומרים!"
+  profile-not-loaded: "הפרופיל שלך לא נטען, נסה שוב מאוחר יותר."
+  no-research: "עדיין לא פתחת פריט אחד או יותר מתוצרי המתכון הזה."

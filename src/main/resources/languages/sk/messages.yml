@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Nedostatok energie!"
+  not-enough-materials: "Nedostatok materiálu!"
+  profile-not-loaded: "Tvoj profil nie je načítaný, skús to prosím neskôr."
+  no-research: "Ešte si neodomkol jeden alebo viac výstupných predmetov tohto receptu."

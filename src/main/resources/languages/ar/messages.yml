@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "لا توجد طاقة كافية!"
+  not-enough-materials: "لا توجد مواد كافية!"
+  profile-not-loaded: "لم يُحمَّل ملفك الشخصي، حاول مرة أخرى لاحقًا."
+  no-research: "لم تفتح بعد شيئًا أو أكثر من أشياء خرج هذه الوصفة."

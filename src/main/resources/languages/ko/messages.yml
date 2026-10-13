@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "에너지가 부족합니다!"
+  not-enough-materials: "재료가 부족합니다!"
+  profile-not-loaded: "프로필이 아직 불러와지지 않았습니다. 잠시 후에 다시 시도하세요."
+  no-research: "이 제작법의 결과 아이템 중 하나 이상을 아직 해금하지 않았습니다."

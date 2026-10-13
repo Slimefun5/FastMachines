@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Energia insuficiente!"
+  not-enough-materials: "Materiais insuficientes!"
+  profile-not-loaded: "O teu perfil não está carregado, tenta outra vez mais tarde."
+  no-research: "Ainda não desbloqueaste um ou mais itens de saída desta receita."
