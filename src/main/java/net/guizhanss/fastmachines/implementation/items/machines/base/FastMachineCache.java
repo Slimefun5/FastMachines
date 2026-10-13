@@ -8,6 +8,7 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.HashSet;
 
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
 import io.github.thebusybiscuit.slimefun5.api.player.PlayerProfile;
@@ -18,6 +19,7 @@ import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 
 import net.guizhanss.fastmachines.FastMachines;
+import net.guizhanss.fastmachines.util.Messages;
 import net.guizhanss.fastmachines.core.items.ItemWrapper;
 import net.guizhanss.fastmachines.core.recipes.Recipe;
 import net.guizhanss.fastmachines.core.recipes.choices.RecipeChoice;
@@ -200,7 +202,7 @@ public class FastMachineCache {
 
         int actualCrafts = Math.min(maxCraftable, expectCrafts);
         if (actualCrafts <= 0) {
-            FastMachines.getLocalization().sendMessage(p, "not-enough-materials");
+            Messages.send(p, ChatColor.RED, "machine.not-enough-materials", "Not enough materials!");
             return;
         }
 
@@ -218,7 +220,8 @@ public class FastMachineCache {
             if (!researches.isEmpty()) {
                 Optional<PlayerProfile> pp = PlayerProfile.find(p);
                 if (!pp.isPresent()) {
-                    FastMachines.getLocalization().sendMessage(p, "profile-not-loaded");
+                    Messages.send(p, ChatColor.RED, "machine.profile-not-loaded",
+                            "Your profile is not loaded, please try again later.");
                     PlayerProfile.request(p);
                     return;
                 }
@@ -226,7 +229,8 @@ public class FastMachineCache {
                 PlayerProfile profile = pp.get();
                 for (Research research : researches) {
                     if (!profile.hasUnlocked(research)) {
-                        FastMachines.getLocalization().sendMessage(p, "no-research");
+                        Messages.send(p, ChatColor.RED, "machine.no-research",
+                                "You have not unlocked one or more output items of this recipe.");
                         return;
                     }
                 }
@@ -240,7 +244,7 @@ public class FastMachineCache {
             int currentEnergy = machine.getCharge(pos.toLocation());
 
             if (currentEnergy < energyNeeded) {
-                FastMachines.getLocalization().sendMessage(p, "not-enough-energy");
+                Messages.send(p, ChatColor.RED, "machine.not-enough-energy", "Not enough energy!");
                 return;
             }
 

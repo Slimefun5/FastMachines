@@ -89,6 +89,31 @@ public class Localization {
         return "";
     }
 
+    /**
+     * Whether an operator edited this path in the pack they actually chose.
+     *
+     * @implNote Compared against the jar's bundled copy of the SAME language file, which
+     *           {@link Language} keeps as the configuration's defaults. Comparing against English
+     *           instead would read a non-English pack as edited in every line.
+     */
+    public boolean isCustomised(String path) {
+        for (String lang : languages) {
+            Language language = langMap.get(lang);
+            if (language == null) {
+                continue;
+            }
+            FileConfiguration config = language.getConfig();
+            String value = config.getString(path);
+            if (value == null) {
+                continue;
+            }
+            org.bukkit.configuration.Configuration defaults = config.getDefaults();
+            String shipped = defaults == null ? null : defaults.getString(path);
+            return shipped != null && !value.equals(shipped);
+        }
+        return false;
+    }
+
     public List<String> getStringList(String path) {
         for (String lang : languages) {
             Language language = langMap.get(lang);

@@ -68,6 +68,7 @@ public class FastMachines extends JavaPlugin implements SlimefunAddon {
         FMItemGroups.setup();
         FMItems.setup();
         Slimefun.getItemTranslationService().registerTranslations(this);
+        Slimefun.getAddonMessageService().registerTranslations(this);
 
         if (configService.getEnableResearches().getValue()) {
             ResearchSetup.setup();

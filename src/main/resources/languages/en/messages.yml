@@ -1,0 +1,5 @@
+machine:
+  not-enough-energy: "Not enough energy!"
+  not-enough-materials: "Not enough materials!"
+  profile-not-loaded: "Your profile is not loaded, please try again later."
+  no-research: "You have not unlocked one or more output items of this recipe."
