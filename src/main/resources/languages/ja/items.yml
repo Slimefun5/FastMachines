@@ -1,0 +1,218 @@
+FM_ETERNAL_FIRE:
+  description:
+  - '&7決して消えない炎。'
+  name: '&4永遠の炎'
+  type:
+  - '&7&o資源'
+FM_FAST_ANCIENT_ALTAR:
+  description:
+  - '&7より使いやすい古代の祭壇。'
+  name: '&a高速古代の祭壇'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_ARMOR_FORGE:
+  description:
+  - '&7より使いやすい防具鍛造機。'
+  name: '&a高速防具鍛造機'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_COMPOSTER:
+  description:
+  - '&7より使いやすいコンポスター。'
+  name: '&a高速コンポスター'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_COMPRESSOR:
+  description:
+  - '&7より使いやすい圧縮機。'
+  name: '&a高速圧縮機'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_CORE:
+  description:
+  - '&7高速機械の核。'
+  name: '&b高速コア'
+  type:
+  - '&7&o資源'
+FM_FAST_CRAFTING_TABLE:
+  description:
+  - '&7より使いやすいバニラの作業台。'
+  name: '&a高速作業台'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_ENHANCED_CRAFTING_TABLE:
+  description:
+  - '&7より使いやすい強化作業台。'
+  name: '&a高速強化作業台'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_FURNACE:
+  description:
+  - '&7より使いやすいバニラのかまど。'
+  name: '&a高速かまど'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_GRIND_STONE:
+  description:
+  - '&7より使いやすい研石。'
+  name: '&a高速研石'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_INFINITY_WORKBENCH:
+  description:
+  - '&7より使いやすいインフィニティワークベンチ。'
+  name: '&a高速インフィニティワークベンチ'
+  stats:
+  - '&8⇨ &e⚡ &7100000000 J バッファ'
+  - '&8⇨ &e⚡ &710000000 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_JUICER:
+  description:
+  - '&7より使いやすいジューサー。'
+  name: '&a高速ジューサー'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_MAGIC_WORKBENCH:
+  description:
+  - '&7より使いやすい魔法の作業台。'
+  name: '&a高速魔法の作業台'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_MOB_DATA_INFUSER:
+  description:
+  - '&7より使いやすいモブデータインフューザー。'
+  name: '&a高速モブデータインフューザー'
+  stats:
+  - '&8⇨ &e⚡ &7200000 J バッファ'
+  - '&8⇨ &e⚡ &720000 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_ORE_CRUSHER:
+  description:
+  - '&7より使いやすい鉱石粉砕機。'
+  name: '&a高速鉱石粉砕機'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_ORE_WASHER:
+  description:
+  - '&7より使いやすい鉱石洗浄機。'
+  name: '&a高速鉱石洗浄機'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_PANNING_MACHINE:
+  description:
+  - '&7より使いやすい自動皿がけ機。'
+  name: '&a高速皿がけ機'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_PRESSURE_CHAMBER:
+  description:
+  - '&7より使いやすい加圧チャンバー。'
+  name: '&a高速加圧チャンバー'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_SMELTERY:
+  description:
+  - '&7より使いやすい製錬所。'
+  name: '&a高速製錬所'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_FAST_TABLE_SAW:
+  description:
+  - '&7より使いやすいテーブルソー。'
+  name: '&a高速テーブルソー'
+  stats:
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  - '&8⇨ &e⚡ &78 J/クラフト'
+  type:
+  - '&7&o機械'
+  usage:
+  - '&7アイテムを順番に並べずにクラフトできる。'
+FM_STACKED_ANCIENT_PEDESTAL:
+  description:
+  - '&74つの古代の台座を1つに。'
+  name: '&6積層古代の台座'
+  type:
+  - '&7&o資源'
+  usage:
+  - '&e右クリック &7で4つの古代の台座に分解する。'
